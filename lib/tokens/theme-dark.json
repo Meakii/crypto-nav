@@ -1632,35 +1632,35 @@
           "value": "{base.colors.zinc.700}",
           "type": "color"
         },
-        "surface 1": {
+        "surface-1": {
           "value": "#1c1c20",
           "type": "color"
         },
-        "surface 2": {
+        "surface-2": {
           "value": "#1e1e22",
           "type": "color"
         },
-        "surface 3": {
+        "surface-3": {
           "value": "#212125",
           "type": "color"
         },
-        "surface 4": {
+        "surface-4": {
           "value": "#242428",
           "type": "color"
         },
-        "surface 1 variant": {
+        "surface-1-variant": {
           "value": "#212022",
           "type": "color"
         },
-        "surface 2 variant": {
+        "surface-2-variant": {
           "value": "#242425",
           "type": "color"
         },
-        "surface 3 variant": {
+        "surface-3-variant": {
           "value": "#2a2929",
           "type": "color"
         },
-        "surface 4 variant": {
+        "surface-4-variant": {
           "value": "#31302e",
           "type": "color"
         }

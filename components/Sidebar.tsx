@@ -156,7 +156,7 @@ const Sidebar = () => {
 
   return (
     <motion.div
-      className={`bg-background border-r transition-all duration-300 ${
+      className={`bg-background border-r divider-strong transition-all duration-300 ${
         isCollapsed ? "w-16" : "w-64"
       } hidden lg:flex flex-col`}
       animate={{ width: isCollapsed ? 64 : 256 }}

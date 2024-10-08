@@ -1632,35 +1632,35 @@
           "value": "{base.colors.general.white}",
           "type": "color"
         },
-        "surface 1": {
+        "surface-1": {
           "value": "#fbfbf9",
           "type": "color"
         },
-        "surface 2": {
+        "surface-2": {
           "value": "#f7f6f2",
           "type": "color"
         },
-        "surface 3": {
+        "surface-3": {
           "value": "#f4f3ed",
           "type": "color"
         },
-        "surface 4": {
+        "surface-4": {
           "value": "#f0eee6",
           "type": "color"
         },
-        "surface 1 variant": {
+        "surface-1-variant": {
           "value": "#f3f3f4",
           "type": "color"
         },
-        "surface 2 variant": {
+        "surface-2-variant": {
           "value": "#f0f0f1",
           "type": "color"
         },
-        "surface 3 variant": {
+        "surface-3-variant": {
           "value": "#ececed",
           "type": "color"
         },
-        "surface 4 variant": {
+        "surface-4-variant": {
           "value": "#e7e7e8",
           "type": "color"
         }

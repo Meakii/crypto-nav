@@ -15,7 +15,7 @@ const Header = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="bg-background border-b px-6 py-3 flex items-center justify-between">
+    <header className="bg-background divider-strong border-b px-6 py-3 flex items-center justify-between">
       <div className="flex items-center lg:hidden">
         <div className="w-[28px] h-[16px] bg-gray-200 mr-4">
           {/* Placeholder for small logo */}

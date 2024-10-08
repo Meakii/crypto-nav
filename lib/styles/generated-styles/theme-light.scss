@@ -8,6 +8,14 @@
   --shadow-blur-48: 48;
   --color-surfaces-background: var(--colors-brand-sand-50);
   --color-surfaces-container: var(--colors-general-white);
+  --color-surfaces-surface-1: #fbfbf9;
+  --color-surfaces-surface-2: #f7f6f2;
+  --color-surfaces-surface-3: #f4f3ed;
+  --color-surfaces-surface-4: #f0eee6;
+  --color-surfaces-surface-1-variant: #f3f3f4;
+  --color-surfaces-surface-2-variant: #f0f0f1;
+  --color-surfaces-surface-3-variant: #ececed;
+  --color-surfaces-surface-4-variant: #e7e7e8;
   --color-text-primary-high: var(--colors-zinc-900);
   --color-text-primary-less: var(--colors-zinc-700);
   --color-text-secondary-high: var(--colors-brand-electric-green-900);
@@ -81,6 +89,7 @@
   --color-interactive-button-sell-label: var(--colors-zinc-50);
   --color-interactive-button-primary-label-hover: var(--colors-zinc-700);
   --color-interactive-button-primary-label-pressed: var(--colors-zinc-900);
+  --color-interactive-button-brand-label-disabled: #80938d;
   --color-interactive-button-buy-alt-border-default: var(--colors-emerald-500);
   --color-interactive-button-buy-alt-label-default: var(--colors-emerald-500);
   --color-interactive-button-buy-alt-border-hover: var(--colors-emerald-400);
