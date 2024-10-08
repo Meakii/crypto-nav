@@ -1,0 +1,39 @@
+name: Build and convert design tokens
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: "18.x"
+      - name: Cache Node Modules
+        id: node-modules-cache
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ./node_modules
+          key: x-node-modules-${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('./package-lock.json') }}
+
+      - name: Install Dependencies
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      # Install dependencies
+      # - run: npm install
+
+      # # Transform Figma Tokens JSON to something Style Dictionary can read
+
+      # Convert tokens according to Style Dictionary config
+      - run:
+          node ./lib/utils/convert-design-tokens.js && node ./lib/utils/transform-tokens.js
+
+          # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Tokens
