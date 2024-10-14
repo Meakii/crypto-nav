@@ -1859,7 +1859,7 @@
       },
       "utility": {
         "outline": {
-          "value": "{base.colors.zinc.700}",
+          "value": "{base.colors.zinc.600}",
           "type": "color"
         },
         "button outline": {
@@ -2163,6 +2163,43 @@
             "value": "{base.colors.zinc.700}",
             "type": "color",
             "description": "Menu item label on disabled state"
+          }
+        },
+        "tabs-contained": {
+          "bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color",
+            "description": "Tabs contained variant background default state"
+          },
+          "bg hover": {
+            "value": "{base.colors.zinc.700}",
+            "type": "color",
+            "description": "Tabs contained variant background hover state"
+          },
+          "bg active": {
+            "value": "{base.colors.zinc.700}",
+            "type": "color",
+            "description": "Tabs contained variant background active state"
+          },
+          "container bg": {
+            "value": "{base.colors.zinc.800}",
+            "type": "color",
+            "description": "Tabs contained background colour"
+          },
+          "label default": {
+            "value": "{base.colors.zinc.400}",
+            "type": "color",
+            "description": "Tabs contained variant label default state"
+          },
+          "label hover": {
+            "value": "{base.colors.zinc.400}",
+            "type": "color",
+            "description": "Tabs contained variant label hover state"
+          },
+          "label active": {
+            "value": "{base.colors.zinc.200}",
+            "type": "color",
+            "description": "Tabs contained variant label active state"
           }
         }
       }

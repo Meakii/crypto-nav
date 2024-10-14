@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden lg:block">
-        <Button variant="outline">Deposit AUD</Button>
+        <Button variant="outlined">Deposit AUD</Button>
       </div>
       <div className="text-lg font-semibold flex-1 text-center">$0.00 AUD</div>
       <div className="flex items-center space-x-2">

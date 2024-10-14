@@ -1,4 +1,6 @@
 import type { Config } from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
+
 
 const config: Config = {
   darkMode: ['class'],
@@ -53,6 +55,21 @@ const config: Config = {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        button: {
+          primary: {
+            bg: {
+              default: 'hsl(var(--color-interactive-button-brand-bg-default))',
+              hover: 'hsl(var(--color-interactive-button-brand-bg-hover))',
+              pressed: 'hsl(var(--color-interactive-button-brand-bg-pressed))',
+            },
+            border: {
+              default: 'hsl(var(--color-interactive-button-brand-border-default))',
+            },
+            label: {
+              default: 'hsl(var(--color-interactive-button-brand-label))',
+            }
+          }
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -88,6 +105,77 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [
+    require('tailwindcss-animate'),
+    plugin(function({ addComponents, theme }) {
+      addComponents({
+        '.btn-primary': {
+          backgroundColor: 'var(--color-interactive-button-brand-bg-default)',
+          borderColor: 'var(--color-interactive-button-brand-border-default)',
+          borderWidth: '1px',
+          borderStyle: 'solid',
+          color: 'var(--color-interactive-button-brand-label)',
+          '&:hover': {
+            backgroundColor: 'var(--color-interactive-button-brand-bg-hover, var(--color-interactive-button-brand-bg-default))',
+          },
+          '&:active': {
+            backgroundColor: 'var(--color-interactive-button-brand-bg-active, var(--color-interactive-button-brand-bg-default))',
+          },
+        },
+        '.btn-outlined': {
+          backgroundColor: 'transparent',
+          borderColor: 'var(--color-interactive-button-primary-border-default)',
+          borderWidth: '1px',
+          borderStyle: 'solid',
+          color: 'var(--color-interactive-button-primary-label-default)',
+          '&:hover': {
+            borderColor: 'var(--color-interactive-button-primary-border-hover)',
+            color: 'var(--color-interactive-button-primary-label-hover)',
+          },
+          '&:active': {
+            borderColor: 'var(--color-interactive-button-primary-border-pressed)',
+            color: 'var(--color-interactive-button-primary-label-pressed)',
+          },
+        },
+        '.tab-contained': {
+          backgroundColor: 'var(--color-tabs-contained-bg-default)',
+          color: 'var(--color-tabs-contained-label-default)',
+          '&:hover': {
+            backgroundColor: 'var(--color-tabs-contained-bg-hover)',
+            color: 'var(--color-tabs-contained-label-hover)',
+          },
+          '&:active': {
+            backgroundColor: 'var(--color-tabs-contained-bg-active)',
+            color: 'var(--color-tabs-contained-label-active)',
+          },
+        },
+        '.btn-menu': {
+          backgroundColor: 'transparent',
+          color: 'var(--color-interactive-neutral-label-default)',
+          '&:hover': {
+            backgroundColor: 'var(--color-interactive-neutral-bg-hover)',
+            color: 'var(--color-interactive-neutral-label-hover)',
+          },
+          '&:active': {
+            backgroundColor: 'var(--color-interactive-neutral-bg-active)',
+            color: 'var(--color-interactive-neutral-label-active)',
+          },
+        },
+        '.input-default': {
+          backgroundColor: 'transparent',
+          color: 'var(--color-interactive-neutral-label-default)',
+          borderColor: 'var(--color-interactive-outline-default)',
+          borderWidth: '1px',
+          borderStyle: 'solid',
+          '&:hover': {
+            borderColor: 'var(--color-interactive-outline-hover)',
+          },
+          '&:active': {
+            borderColor: 'var(--color-interactive-outline-active)',
+          },
+        },
+      });
+    }),
+  ],
 };
 export default config;

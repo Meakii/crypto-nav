@@ -1906,7 +1906,7 @@
       "interactive": {
         "button": {
           "brand bg default": {
-            "value": "{base.colors.brand.electric green.500}",
+            "value": "{base.colors.brand.electric green.300}",
             "type": "color",
             "description": "Brand button background default state colour"
           },
@@ -2169,6 +2169,43 @@
           "value": "{base.colors.zinc.300}",
           "type": "color",
           "description": "Menu item label on disabled state"
+        }
+      },
+      "tabs-contained": {
+        "bg default": {
+          "value": "rgba(255,255,255,0)",
+          "type": "color",
+          "description": "Tabs contained variant background default state"
+        },
+        "bg hover": {
+          "value": "{base.colors.zinc.50}",
+          "type": "color",
+          "description": "Tabs contained variant background hover state"
+        },
+        "bg active": {
+          "value": "{base.colors.zinc.50}",
+          "type": "color",
+          "description": "Tabs contained variant background active state"
+        },
+        "label default": {
+          "value": "{base.colors.zinc.700}",
+          "type": "color",
+          "description": "Tabs contained variant label default state"
+        },
+        "label hover": {
+          "value": "{base.colors.zinc.700}",
+          "type": "color",
+          "description": "Tabs contained variant label hover state"
+        },
+        "label active": {
+          "value": "{base.colors.zinc.900}",
+          "type": "color",
+          "description": "Tabs contained variant label active state"
+        },
+        "container bg": {
+          "value": "{base.colors.zinc.100}",
+          "type": "color",
+          "description": "Tabs contained background colour"
         }
       }
     },

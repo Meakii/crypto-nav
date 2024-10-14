@@ -393,9 +393,11 @@
   --color-utility-divider-strong: var(--colors-zinc-300);
   --color-utility-inverse: var(--colors-general-black);
   --color-utility-focus-ring: var(--colors-zinc-600);
+  --color-utility-input-bg: rgba(255,255,255,0);
+  --color-utility-fg-on-input: rgba(255,255,255,0);
   --color-utility-input-outline: var(--colors-zinc-300);
   --color-utility-neutral-bg: var(--colors-zinc-300);
-  --color-interactive-button-brand-bg-default: var(--colors-brand-electric-green-500);
+  --color-interactive-button-brand-bg-default: var(--colors-brand-electric-green-300);
   --color-interactive-button-brand-bg-hover: var(--colors-brand-electric-green-400);
   --color-interactive-button-brand-bg-pressed: var(--colors-brand-electric-green-500);
   --color-interactive-button-brand-border-default: var(--colors-brand-electric-green-600);
@@ -447,6 +449,13 @@
   --color-neutral-label-hover: var(--colors-zinc-700);
   --color-neutral-label-active: var(--colors-zinc-900);
   --color-neutral-label-disabled: var(--colors-zinc-300);
+  --color-tabs-contained-bg-default: rgba(255,255,255,0);
+  --color-tabs-contained-bg-hover: var(--colors-zinc-50);
+  --color-tabs-contained-bg-active: var(--colors-zinc-50);
+  --color-tabs-contained-label-default: var(--colors-zinc-700);
+  --color-tabs-contained-label-hover: var(--colors-zinc-700);
+  --color-tabs-contained-label-active: var(--colors-zinc-900);
+  --color-tabs-contained-container-bg: var(--colors-zinc-100);
 }
 :root.dark {
 --shadow-x-0: 0;
@@ -507,7 +516,7 @@
   --color-status-orders-complete: var(--colors-green-800);
   --color-status-orders-pending: var(--colors-amber-700);
   --color-status-orders-accepted: var(--colors-blue-800);
-  --color-utility-outline: var(--colors-zinc-700);
+  --color-utility-outline: var(--colors-zinc-600);
   --color-utility-button-outline: var(--colors-zinc-800);
   --color-utility-divider-strong: var(--colors-zinc-700);
   --color-utility-divider-muted: var(--colors-zinc-800);
@@ -520,6 +529,7 @@
   --color-interactive-button-brand-bg-default: var(--colors-brand-electric-green-200);
   --color-interactive-button-brand-bg-hover: var(--colors-brand-electric-green-300);
   --color-interactive-button-brand-bg-pressed: var(--colors-brand-electric-green-200);
+  --color-interactive-button-brand-border-default: rgba(255,255,255,0);
   --color-interactive-button-brand-label: var(--colors-brand-electric-green-900);
   --color-interactive-button-primary-border-default: var(--colors-zinc-500);
   --color-interactive-button-primary-border-hover: var(--colors-zinc-400);
@@ -567,4 +577,11 @@
   --color-interactive-neutral-label-hover: var(--colors-zinc-400);
   --color-interactive-neutral-label-active: var(--colors-zinc-200);
   --color-interactive-neutral-label-disabled: var(--colors-zinc-700);
+  --color-interactive-tabs-contained-bg-default: rgba(0,0,0,0);
+  --color-interactive-tabs-contained-bg-hover: var(--colors-zinc-700);
+  --color-interactive-tabs-contained-bg-active: var(--colors-zinc-700);
+  --color-interactive-tabs-contained-container-bg: var(--colors-zinc-800);
+  --color-interactive-tabs-contained-label-default: var(--colors-zinc-400);
+  --color-interactive-tabs-contained-label-hover: var(--colors-zinc-400);
+  --color-interactive-tabs-contained-label-active: var(--colors-zinc-200);
 }

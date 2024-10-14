@@ -248,7 +248,7 @@ const Sidebar = () => {
                   </TooltipProvider>
                 ) : (
                   <Button
-                    variant="outline"
+                    variant="primary"
                     className="w-full justify-center"
                     size="default"
                   >

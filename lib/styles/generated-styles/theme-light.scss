@@ -64,9 +64,11 @@
   --color-utility-divider-strong: var(--colors-zinc-300);
   --color-utility-inverse: var(--colors-general-black);
   --color-utility-focus-ring: var(--colors-zinc-600);
+  --color-utility-input-bg: rgba(255,255,255,0);
+  --color-utility-fg-on-input: rgba(255,255,255,0);
   --color-utility-input-outline: var(--colors-zinc-300);
   --color-utility-neutral-bg: var(--colors-zinc-300);
-  --color-interactive-button-brand-bg-default: var(--colors-brand-electric-green-500);
+  --color-interactive-button-brand-bg-default: var(--colors-brand-electric-green-300);
   --color-interactive-button-brand-bg-hover: var(--colors-brand-electric-green-400);
   --color-interactive-button-brand-bg-pressed: var(--colors-brand-electric-green-500);
   --color-interactive-button-brand-border-default: var(--colors-brand-electric-green-600);
@@ -118,4 +120,11 @@
   --color-neutral-label-hover: var(--colors-zinc-700);
   --color-neutral-label-active: var(--colors-zinc-900);
   --color-neutral-label-disabled: var(--colors-zinc-300);
+  --color-tabs-contained-bg-default: rgba(255,255,255,0);
+  --color-tabs-contained-bg-hover: var(--colors-zinc-50);
+  --color-tabs-contained-bg-active: var(--colors-zinc-50);
+  --color-tabs-contained-label-default: var(--colors-zinc-700);
+  --color-tabs-contained-label-hover: var(--colors-zinc-700);
+  --color-tabs-contained-label-active: var(--colors-zinc-900);
+  --color-tabs-contained-container-bg: var(--colors-zinc-100);
     }
