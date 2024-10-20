@@ -1,6 +1,6 @@
 {
   "base": {
-    "colors": {
+    "primitive": {
       "slate": {
         "50": {
           "value": "#f8fafc",
@@ -1334,162 +1334,48 @@
           "value": "72",
           "type": "number"
         }
-      },
-      "line-heights": {
-        "8": {
-          "value": "8",
-          "type": "number"
-        },
-        "10": {
-          "value": "10",
-          "type": "number"
-        },
-        "12": {
-          "value": "12",
-          "type": "number"
-        },
-        "14": {
-          "value": "14",
-          "type": "number"
-        },
-        "15": {
-          "value": "15",
-          "type": "number"
-        },
-        "18": {
-          "value": "18",
-          "type": "number"
-        },
-        "20": {
-          "value": "20",
-          "type": "number"
-        },
-        "21": {
-          "value": "21",
-          "type": "number"
-        },
-        "24": {
-          "value": "24",
-          "type": "number"
-        },
-        "25": {
-          "value": "25",
-          "type": "number"
-        },
-        "28": {
-          "value": "28",
-          "type": "number"
-        },
-        "30": {
-          "value": "30",
-          "type": "number"
-        },
-        "32": {
-          "value": "32",
-          "type": "number"
-        },
-        "35": {
-          "value": "35",
-          "type": "number"
-        },
-        "36": {
-          "value": "36",
-          "type": "number"
-        },
-        "40": {
-          "value": "40",
-          "type": "number"
-        },
-        "42": {
-          "value": "42",
-          "type": "number"
-        },
-        "48": {
-          "value": "48",
-          "type": "number"
-        },
-        "50": {
-          "value": "50",
-          "type": "number"
-        },
-        "56": {
-          "value": "56",
-          "type": "number"
-        },
-        "60": {
-          "value": "60",
-          "type": "number"
-        },
-        "64": {
-          "value": "64",
-          "type": "number"
-        },
-        "70": {
-          "value": "70",
-          "type": "number"
-        },
-        "72": {
-          "value": "72",
-          "type": "number"
-        },
-        "80": {
-          "value": "80",
-          "type": "number"
-        },
-        "84": {
-          "value": "84",
-          "type": "number"
-        },
-        "90": {
-          "value": "90",
-          "type": "number"
-        },
-        "96": {
-          "value": "96",
-          "type": "number"
-        },
-        "108": {
-          "value": "108",
-          "type": "number"
-        },
-        "112": {
-          "value": "112",
-          "type": "number"
-        },
-        "128": {
-          "value": "128",
-          "type": "number"
-        }
       }
     },
     "radius": {
-      "0": {
+      "none": {
         "value": "0",
-        "type": "number"
+        "type": "number",
+        "description": "No border radius"
       },
-      "2": {
+      "xs": {
         "value": "2",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size xs"
       },
-      "4": {
+      "sm": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size sm"
       },
-      "8": {
+      "md": {
         "value": "8",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size md"
       },
-      "24": {
+      "xl": {
         "value": "24",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size xl"
       },
-      "48": {
+      "lg": {
+        "value": "16",
+        "type": "number",
+        "description": "Border radius size lg"
+      },
+      "2xl": {
         "value": "48",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size 2xl"
       },
-      "9999": {
-        "value": "9999",
-        "type": "number"
+      "3xl": {
+        "value": "100",
+        "type": "number",
+        "description": "Border radius size 3xl"
       }
     },
     "border-width": {
@@ -1499,82 +1385,64 @@
       },
       "2": {
         "value": "2",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 2px"
       },
       "4": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 4px"
       },
       "8": {
         "value": "8",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 8px"
+      },
+      "border": {
+        "value": "1",
+        "type": "number",
+        "description": "Default border width"
       }
     },
     "opacity": {
       "0": {
-        "value": "0",
+        "value": "0%",
         "type": "number"
       },
       "10": {
-        "value": "10",
+        "value": "10%",
         "type": "number"
       },
       "20": {
-        "value": "20",
+        "value": "20%",
         "type": "number"
       },
       "30": {
-        "value": "30",
+        "value": "30%",
         "type": "number"
       },
       "40": {
-        "value": "40",
+        "value": "40%",
         "type": "number"
       },
       "50": {
-        "value": "50",
+        "value": "50%",
         "type": "number"
       },
       "60": {
-        "value": "60",
+        "value": "60%",
         "type": "number"
       },
       "70": {
-        "value": "70",
+        "value": "70%",
         "type": "number"
       },
       "80": {
-        "value": "80",
+        "value": "80%",
         "type": "number"
       },
       "90": {
-        "value": "90",
-        "type": "number"
-      }
-    },
-    "shadow": {
-      "x-0": {
-        "value": "0",
-        "type": "number"
-      },
-      "y-0": {
-        "value": "0",
-        "type": "number"
-      },
-      "y-2": {
-        "value": "2",
-        "type": "number"
-      },
-      "y-4": {
-        "value": "4",
-        "type": "number"
-      },
-      "blur-16": {
-        "value": "16",
-        "type": "number"
-      },
-      "blur-48": {
-        "value": "48",
+        "value": "90%",
         "type": "number"
       }
     },
@@ -1583,41 +1451,308 @@
         "value": "0",
         "type": "number"
       },
-      "4": {
+      "1": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Space 1 based on 4px base size"
+      },
+      "2": {
+        "value": "8",
+        "type": "number",
+        "description": "Space 2 based on 4px base size"
+      },
+      "3": {
+        "value": "12",
+        "type": "number",
+        "description": "Space 3 based on 4px base size"
+      },
+      "4": {
+        "value": "16",
+        "type": "number",
+        "description": "Space 4 based on 4px base size"
+      },
+      "5": {
+        "value": "20",
+        "type": "number",
+        "description": "Space 5 based on 4px base size"
+      },
+      "6": {
+        "value": "24",
+        "type": "number",
+        "description": "Space 6 based on 4px base size"
       },
       "8": {
-        "value": "8",
-        "type": "number"
+        "value": "32",
+        "type": "number",
+        "description": "Space 8 based on 4px base size"
+      },
+      "10": {
+        "value": "40",
+        "type": "number",
+        "description": "Space 10 based on 4px base size"
       },
       "16": {
-        "value": "16",
-        "type": "number"
+        "value": "64",
+        "type": "number",
+        "description": "Space 16 based on 4px base size"
       },
-      "24": {
-        "value": "24",
-        "type": "number"
+      "20": {
+        "value": "80",
+        "type": "number",
+        "description": "Space 20 based on 4px base size"
       },
       "32": {
-        "value": "32",
-        "type": "number"
+        "value": "128",
+        "type": "number",
+        "description": "Space 32 based on 4px base size"
       },
       "64": {
-        "value": "64",
-        "type": "number"
+        "value": "256",
+        "type": "number",
+        "description": "Space 64 based on 4px base size"
       },
       "128": {
-        "value": "128",
-        "type": "number"
-      },
-      "256": {
-        "value": "256",
-        "type": "number"
-      },
-      "512": {
         "value": "512",
-        "type": "number"
+        "type": "number",
+        "description": "Space 128 based on 4px base size"
+      },
+      "1-5": {
+        "value": "6",
+        "type": "number",
+        "description": "Space 1.5 based on 4px base size"
+      }
+    },
+    "system": {
+      "value": "IBM-Plex-Sans",
+      "type": "fontFamilies",
+      "description": "System font family"
+    },
+    "brand": {
+      "value": "Lexend",
+      "type": "fontFamilies",
+      "description": "Brand font family"
+    },
+    "Normal": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "SemiBold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "btcm": {
+      "heading": {
+        "2xl": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.32}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.tight}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias 2xl"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.24}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.tight}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias xl"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.20}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias lg"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias md"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias sm"
+        }
+      },
+      "label": {
+        "sm semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size sm semibold"
+        },
+        "xs semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size xs semibold"
+        },
+        "2xs semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.10}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size 2xs semibold"
+        },
+        "xs normal": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size xs normal"
+        },
+        "sm normal": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size sm normal"
+        }
+      },
+      "body": {
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size md normal weight"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.widest}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size sm normal weight"
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size xs normal weight"
+        }
+      },
+      "button": {
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Medium}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.none}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Text style for 'medium' and 'large' button sizes md weight medium"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Medium}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.none}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Text style for 'small' button sizes weight medium"
+        }
+      }
+    },
+    "leading": {
+      "none": {
+        "value": "1",
+        "type": "lineHeights"
+      },
+      "tight": {
+        "value": "1.25",
+        "type": "lineHeights"
+      },
+      "normal": {
+        "value": "1.5",
+        "type": "lineHeights"
+      }
+    },
+    "tracking": {
+      "normal": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "tight": {
+        "value": "-1%",
+        "type": "letterSpacing"
+      },
+      "wide": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "wider": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "widest": {
+        "value": "3%",
+        "type": "letterSpacing"
       }
     }
   }

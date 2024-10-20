@@ -234,7 +234,7 @@ const Sidebar = () => {
                     <Tooltip>
                       <TooltipTrigger asChild>
                         <Button
-                          variant="outline"
+                          variant="tertiary"
                           className="w-full justify-center"
                           size="icon"
                         >
@@ -248,9 +248,9 @@ const Sidebar = () => {
                   </TooltipProvider>
                 ) : (
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     className="w-full justify-center"
-                    size="default"
+                    size="md"
                   >
                     <span className="mr-2">Go to advanced</span>
                     <BarChart2 size={20} />

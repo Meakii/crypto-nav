@@ -115,7 +115,7 @@ export default function CryptoAssets() {
                       </div>
                     </div>
                     <div className="flex justify-between">
-                      <Button variant="outlined">Deposit AUD</Button>
+                      <Button variant="tertiary">Deposit AUD</Button>
                       <Button variant="primary">Continue</Button>
                     </div>
                   </div>

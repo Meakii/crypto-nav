@@ -1,26 +1,128 @@
-.font-thin {
-    font-weight: 400;
-  }
-  .font-normal {
-    font-weight: 500;
-  }
-  .font-bold {
-    font-weight: 600;
-  }
-  /* Dividers */
+html {
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+/* Dividers */
 .divider-strong {
-    border-color: var(--color-utility-divider-strong);
+  border-color: var(--color-utility-divider-strong);
+}
+.divider-muted {
+  border-color: var(--color-utility-divider-muted);
+}
+.outline-active-right:after {
+  position: absolute;
+  right: 0;
+  border-radius: var(--radius-8);
+  width: 0.4rem;
+  height: 2rem;
+  top: translateY(50%);
+  transform: translateY(-50%);
+  background-color: var(--color-interactive-outline-outline-active);
+}
+
+/*--- Buttons --- */
+
+/*- Primary - */
+.btcm-button-primary {
+  background-color: var(--color-button-primary-default);
+  border: var(--border-width-border)
+    var(--color-button-primary-border-default) solid;
+  color: var(--color-button-primary-fg);
+
+  &:hover:not([disabled="true"]) {
+    background-color: var(--color-button-primary-hover);
   }
-  .divider-muted {
-    border-color: var(--color-utility-divider-muted);
+  &:active:not([disabled="true"]) {
+    background-color: var(--color-button-primary-pressed);
   }
-  .outline-active-right:after {
-    position: absolute;
-    right: 0;
-    border-radius: var(--radius-8);
-    width: 0.4rem;
-    height: 2rem;
-    top: translateY(50%);
-    transform: translateY(-50%);
-    background-color: var(--color-interactive-outline-outline-active);
+}
+
+/*- Secondary (outlined) - */
+.btcm-button-secondary {
+  background-color: transparent;
+  color: var(--color-button-secondary-fg-default);
+  border: var(--border-width-border)
+    var(--color-button-secondary-border-default) solid;
+
+    &:hover:not([disabled="true"]) {
+      border-color: var(--color-button-secondary-border-hover);
+      color: var(-color-component-button-secondary-fg-hover);
+    }
+    &:active:not([disabled="true"]) {
+      border-color: var(--color-button-secondary-border-pressed);
+      color: var(-color-component-button-secondary-fg-pressed);
+    }
+}
+
+/*- Tertiary (outlined) - */
+.btcm-button-tertiary {
+  background-color: var(--color-button-tertiary-default);
+  color: var(--color-button-tertiary-fg);
+  border: none;
+
+  &:hover:not([disabled="true"]) {
+    background-color: var(--color-button-tertiary-hover);
   }
+  &:active:not([disabled="true"]) {
+    background-color: var(--color-button-tertiary-pressed);
+  }
+}
+
+/*- Destructive - */
+.btcm-button-destructive {
+  background-color: var(--color-button-destructive-default);
+  color: var(--color-button-destructive-fg);
+  border: none;
+
+  &:hover:not([disabled="true"]) {
+    background-color: var(--color-button-destructive-hover);
+  }
+  &:active:not([disabled="true"]) {
+    background-color: var(--color-button-destructive-pressed);
+  }
+}
+
+/*- Ghost- */
+.btcm-button-ghost {
+  background-color: transparent;
+  color: var(--color-button-ghost-fg-default);
+
+    &:hover:not([disabled="true"]) {
+      color: var(-color-component-button-ghost-fg-hover);
+    }
+    &:active:not([disabled="true"]) {
+      color: var(-color-component-button-ghost-fg-pressed);
+    }
+}
+
+/*- Buy- */
+.btcm-button-buy {
+  background-color: transparent;
+  color: var(--color-button-buy-fg);
+  border: var(--border-width-border)
+  var(--color-button-buy-border-default) solid;
+
+    &:hover:not([disabled="true"]) {
+      border-color: var(--color-button-buy-border-hover)
+    }
+    &:active:not([disabled="true"]) {
+      border-color: var(--color-button-buy-border-pressed)
+    }
+}
+
+/*- Sell- */
+.btcm-button-sell {
+  background-color: transparent;
+  color: var(--color-button-sell-fg);
+  border: var(--border-width-border)
+  var(--color-button-sell-border-default) solid;
+
+    &:hover:not([disabled="true"]) {
+      border-color: var(--color-button-sell-border-hover)
+    }
+    &:active:not([disabled="true"]) {
+      border-color: var(--color-button-sell-border-pressed)
+    }
+}

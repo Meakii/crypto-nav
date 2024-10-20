@@ -11,7 +11,7 @@ import ClientWrapper from '@/components/ClientWrapper';
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-ibm-plex-sans',
+  variable: '--ibm-plex-sans',
 });
 
 export default function RootLayout({

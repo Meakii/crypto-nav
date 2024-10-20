@@ -1,58 +1,73 @@
-import * as React from 'react';
-import { Slot } from '@radix-ui/react-slot';
-import { cva, type VariantProps } from 'class-variance-authority';
+import * as React from "react"
+import { Slot } from "@radix-ui/react-slot"
+import { cva, type VariantProps } from "class-variance-authority"
+import { Loader2 } from "lucide-react"
 
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  "inline-flex items-center justify-center whitespace-nowrap rounded-md ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
-        primary: 'btn-primary',
-        outlined: 'btn-outlined',
-        default: 'bg-primary text-primary-foreground hover:bg-primary/90',
-        destructive:
-          'bg-destructive text-destructive-foreground hover:bg-destructive/90',
-        outline:
-          'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
-        secondary:
-          'bg-secondary text-secondary-foreground hover:bg-secondary/80',
-        ghost: 'hover:bg-accent hover:text-accent-foreground',
-        link: 'text-primary underline-offset-4 hover:underline',
+        primary: 'btcm-button-primary',
+        secondary: 'btcm-button-secondary',
+        tertiary: 'btcm-button-tertiary',
+        buy: 'btcm-button-buy',
+        sell: 'btcm-button-sell',
+        ghost: 'btcm-button-ghost',
+        link: 'btcm-button-link',
+        destructive: 'btcm-button-destructive',
       },
       size: {
-        default: 'h-10 px-4 py-2',
-        sm: 'h-9 rounded-md px-3',
-        lg: 'h-11 rounded-md px-8',
-        icon: 'h-10 w-10',
+        sm: "min-h-8 px-4 space-x-1 btcm-button-sm",
+        md: "min-h-10 px-4 space-x-1-5 btcm-button-md",
+        lg: "min-h-10 px-8 space-x-1-5 btcm-button-md ",
+        icon: "h-10 w-10",
       },
     },
     defaultVariants: {
-      variant: 'default',
-      size: 'default',
+      variant: "tertiary",
+      size: "md",
     },
   }
-);
+)
+
+const sizeClasses = {
+  sm: "btcm-button-sm",
+  md: "btcm-button-md",
+  lg: "btcm-button-md",
+}
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
-  asChild?: boolean;
+  asChild?: boolean
+  loading?: boolean
+  leftIcon?: React.ReactNode
+  rightIcon?: React.ReactNode
+  useCustomSize?: boolean
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
-    const Comp = asChild ? Slot : 'button';
+  ({ className, variant, size, asChild = false, loading = false, leftIcon, rightIcon, useCustomSize = false, children, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button"
+    const customSizeClass = useCustomSize && size && size in sizeClasses ? sizeClasses[size as keyof typeof sizeClasses] : ''
     return (
       <Comp
-        className={cn(buttonVariants({ variant, size, className }))}
+        className={cn(buttonVariants({ variant: useCustomSize ? undefined : variant, size, className }), customSizeClass)}
         ref={ref}
+        disabled={props.disabled || loading}
         {...props}
-      />
-    );
+      >
+        {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+        {!loading && leftIcon && <span className="mr-2">{leftIcon}</span>}
+        {children}
+        {!loading && rightIcon && <span className="ml-2">{rightIcon}</span>}
+      </Comp>
+    )
   }
-);
-Button.displayName = 'Button';
+)
+Button.displayName = "Button"
 
-export { Button, buttonVariants };
+export { Button, buttonVariants }

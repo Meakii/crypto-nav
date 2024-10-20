@@ -1,6 +1,6 @@
 {
   "base": {
-    "colors": {
+    "primitive": {
       "slate": {
         "50": {
           "value": "#f8fafc",
@@ -1334,162 +1334,48 @@
           "value": "72",
           "type": "number"
         }
-      },
-      "line-heights": {
-        "8": {
-          "value": "8",
-          "type": "number"
-        },
-        "10": {
-          "value": "10",
-          "type": "number"
-        },
-        "12": {
-          "value": "12",
-          "type": "number"
-        },
-        "14": {
-          "value": "14",
-          "type": "number"
-        },
-        "15": {
-          "value": "15",
-          "type": "number"
-        },
-        "18": {
-          "value": "18",
-          "type": "number"
-        },
-        "20": {
-          "value": "20",
-          "type": "number"
-        },
-        "21": {
-          "value": "21",
-          "type": "number"
-        },
-        "24": {
-          "value": "24",
-          "type": "number"
-        },
-        "25": {
-          "value": "25",
-          "type": "number"
-        },
-        "28": {
-          "value": "28",
-          "type": "number"
-        },
-        "30": {
-          "value": "30",
-          "type": "number"
-        },
-        "32": {
-          "value": "32",
-          "type": "number"
-        },
-        "35": {
-          "value": "35",
-          "type": "number"
-        },
-        "36": {
-          "value": "36",
-          "type": "number"
-        },
-        "40": {
-          "value": "40",
-          "type": "number"
-        },
-        "42": {
-          "value": "42",
-          "type": "number"
-        },
-        "48": {
-          "value": "48",
-          "type": "number"
-        },
-        "50": {
-          "value": "50",
-          "type": "number"
-        },
-        "56": {
-          "value": "56",
-          "type": "number"
-        },
-        "60": {
-          "value": "60",
-          "type": "number"
-        },
-        "64": {
-          "value": "64",
-          "type": "number"
-        },
-        "70": {
-          "value": "70",
-          "type": "number"
-        },
-        "72": {
-          "value": "72",
-          "type": "number"
-        },
-        "80": {
-          "value": "80",
-          "type": "number"
-        },
-        "84": {
-          "value": "84",
-          "type": "number"
-        },
-        "90": {
-          "value": "90",
-          "type": "number"
-        },
-        "96": {
-          "value": "96",
-          "type": "number"
-        },
-        "108": {
-          "value": "108",
-          "type": "number"
-        },
-        "112": {
-          "value": "112",
-          "type": "number"
-        },
-        "128": {
-          "value": "128",
-          "type": "number"
-        }
       }
     },
     "radius": {
-      "0": {
+      "none": {
         "value": "0",
-        "type": "number"
+        "type": "number",
+        "description": "No border radius"
       },
-      "2": {
+      "xs": {
         "value": "2",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size xs"
       },
-      "4": {
+      "sm": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size sm"
       },
-      "8": {
+      "md": {
         "value": "8",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size md"
       },
-      "24": {
+      "xl": {
         "value": "24",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size xl"
       },
-      "48": {
+      "lg": {
+        "value": "16",
+        "type": "number",
+        "description": "Border radius size lg"
+      },
+      "2xl": {
         "value": "48",
-        "type": "number"
+        "type": "number",
+        "description": "Border radius size 2xl"
       },
-      "9999": {
-        "value": "9999",
-        "type": "number"
+      "3xl": {
+        "value": "100",
+        "type": "number",
+        "description": "Border radius size 3xl"
       }
     },
     "border-width": {
@@ -1499,82 +1385,64 @@
       },
       "2": {
         "value": "2",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 2px"
       },
       "4": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 4px"
       },
       "8": {
         "value": "8",
-        "type": "number"
+        "type": "number",
+        "description": "Border width 8px"
+      },
+      "border": {
+        "value": "1",
+        "type": "number",
+        "description": "Default border width"
       }
     },
     "opacity": {
       "0": {
-        "value": "0",
+        "value": "0%",
         "type": "number"
       },
       "10": {
-        "value": "10",
+        "value": "10%",
         "type": "number"
       },
       "20": {
-        "value": "20",
+        "value": "20%",
         "type": "number"
       },
       "30": {
-        "value": "30",
+        "value": "30%",
         "type": "number"
       },
       "40": {
-        "value": "40",
+        "value": "40%",
         "type": "number"
       },
       "50": {
-        "value": "50",
+        "value": "50%",
         "type": "number"
       },
       "60": {
-        "value": "60",
+        "value": "60%",
         "type": "number"
       },
       "70": {
-        "value": "70",
+        "value": "70%",
         "type": "number"
       },
       "80": {
-        "value": "80",
+        "value": "80%",
         "type": "number"
       },
       "90": {
-        "value": "90",
-        "type": "number"
-      }
-    },
-    "shadow": {
-      "x-0": {
-        "value": "0",
-        "type": "number"
-      },
-      "y-0": {
-        "value": "0",
-        "type": "number"
-      },
-      "y-2": {
-        "value": "2",
-        "type": "number"
-      },
-      "y-4": {
-        "value": "4",
-        "type": "number"
-      },
-      "blur-16": {
-        "value": "16",
-        "type": "number"
-      },
-      "blur-48": {
-        "value": "48",
+        "value": "90%",
         "type": "number"
       }
     },
@@ -1583,629 +1451,724 @@
         "value": "0",
         "type": "number"
       },
-      "4": {
+      "1": {
         "value": "4",
-        "type": "number"
+        "type": "number",
+        "description": "Space 1 based on 4px base size"
+      },
+      "2": {
+        "value": "8",
+        "type": "number",
+        "description": "Space 2 based on 4px base size"
+      },
+      "3": {
+        "value": "12",
+        "type": "number",
+        "description": "Space 3 based on 4px base size"
+      },
+      "4": {
+        "value": "16",
+        "type": "number",
+        "description": "Space 4 based on 4px base size"
+      },
+      "5": {
+        "value": "20",
+        "type": "number",
+        "description": "Space 5 based on 4px base size"
+      },
+      "6": {
+        "value": "24",
+        "type": "number",
+        "description": "Space 6 based on 4px base size"
       },
       "8": {
-        "value": "8",
-        "type": "number"
+        "value": "32",
+        "type": "number",
+        "description": "Space 8 based on 4px base size"
+      },
+      "10": {
+        "value": "40",
+        "type": "number",
+        "description": "Space 10 based on 4px base size"
       },
       "16": {
-        "value": "16",
-        "type": "number"
+        "value": "64",
+        "type": "number",
+        "description": "Space 16 based on 4px base size"
       },
-      "24": {
-        "value": "24",
-        "type": "number"
+      "20": {
+        "value": "80",
+        "type": "number",
+        "description": "Space 20 based on 4px base size"
       },
       "32": {
-        "value": "32",
-        "type": "number"
+        "value": "128",
+        "type": "number",
+        "description": "Space 32 based on 4px base size"
       },
       "64": {
-        "value": "64",
-        "type": "number"
+        "value": "256",
+        "type": "number",
+        "description": "Space 64 based on 4px base size"
       },
       "128": {
-        "value": "128",
-        "type": "number"
-      },
-      "256": {
-        "value": "256",
-        "type": "number"
-      },
-      "512": {
         "value": "512",
-        "type": "number"
+        "type": "number",
+        "description": "Space 128 based on 4px base size"
+      },
+      "1-5": {
+        "value": "6",
+        "type": "number",
+        "description": "Space 1.5 based on 4px base size"
+      }
+    },
+    "system": {
+      "value": "IBM-Plex-Sans",
+      "type": "fontFamilies",
+      "description": "System font family"
+    },
+    "brand": {
+      "value": "Lexend",
+      "type": "fontFamilies",
+      "description": "Brand font family"
+    },
+    "Normal": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "SemiBold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "btcm": {
+      "heading": {
+        "2xl": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.32}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.tight}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias 2xl"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.24}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.tight}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias xl"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.20}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias lg"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias md"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.normal}"
+          },
+          "type": "typography",
+          "description": "Heading style for alias sm"
+        }
+      },
+      "label": {
+        "sm semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size sm semibold"
+        },
+        "xs semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size xs semibold"
+        },
+        "2xs semibold": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.SemiBold}",
+            "fontSize": "{base.text.size.10}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size 2xs semibold"
+        },
+        "xs normal": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size xs normal"
+        },
+        "sm normal": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.tight}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Label style for alias size sm normal"
+        }
+      },
+      "body": {
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size md normal weight"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.14}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.widest}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size sm normal weight"
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Normal}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.normal}",
+            "letterSpacing": "{base.tracking.wider}"
+          },
+          "type": "typography",
+          "description": "Body style for alias size xs normal weight"
+        }
+      },
+      "button": {
+        "md": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Medium}",
+            "fontSize": "{base.text.size.16}",
+            "lineHeight": "{base.leading.none}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Text style for 'medium' and 'large' button sizes md weight medium"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.system}",
+            "fontWeight": "{base.Medium}",
+            "fontSize": "{base.text.size.12}",
+            "lineHeight": "{base.leading.none}",
+            "letterSpacing": "{base.tracking.wide}"
+          },
+          "type": "typography",
+          "description": "Text style for 'small' button sizes weight medium"
+        }
+      }
+    },
+    "leading": {
+      "none": {
+        "value": "1",
+        "type": "lineHeights"
+      },
+      "tight": {
+        "value": "1.25",
+        "type": "lineHeights"
+      },
+      "normal": {
+        "value": "1.5",
+        "type": "lineHeights"
+      }
+    },
+    "tracking": {
+      "normal": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "tight": {
+        "value": "-1%",
+        "type": "letterSpacing"
+      },
+      "wide": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "wider": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "widest": {
+        "value": "3%",
+        "type": "letterSpacing"
       }
     }
   },
   "theme/light": {
     "color": {
-      "surfaces": {
+      "layer": {
         "background": {
-          "value": "{base.colors.brand.sand.50}",
-          "type": "color"
+          "value": "{base.primitive.brand.sand.50}",
+          "type": "color",
+          "description": "Colour of the body background"
         },
         "container": {
-          "value": "{base.colors.general.white}",
+          "value": "{base.primitive.general.white}",
           "type": "color"
         },
-        "surface-1": {
+        "lowest": {
           "value": "#fbfbf9",
-          "type": "color"
+          "type": "color",
+          "description": "Colour of the first layer sitting on top of background"
         },
-        "surface-2": {
+        "low": {
           "value": "#f7f6f2",
-          "type": "color"
+          "type": "color",
+          "description": "Colour of the second layer sitting on top of first layer (background)"
         },
-        "surface-3": {
+        "high": {
           "value": "#f4f3ed",
-          "type": "color"
+          "type": "color",
+          "description": "Colour of the third layer sitting on top of second layer (low)"
         },
-        "surface-4": {
+        "highest": {
           "value": "#f0eee6",
-          "type": "color"
-        },
-        "surface-1-variant": {
-          "value": "#f3f3f4",
-          "type": "color"
-        },
-        "surface-2-variant": {
-          "value": "#f0f0f1",
-          "type": "color"
-        },
-        "surface-3-variant": {
-          "value": "#ececed",
-          "type": "color"
-        },
-        "surface-4-variant": {
-          "value": "#e7e7e8",
-          "type": "color"
+          "type": "color",
+          "description": "Colour of the fourth layer sitting on top of third layer (high)"
         }
       },
       "text": {
-        "primary": {
-          "high": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color"
-          },
-          "less": {
-            "value": "{base.colors.zinc.700}",
-            "type": "color"
-          }
+        "normal": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Colour of text that's strong and well contrasted on all layers"
         },
-        "secondary": {
-          "high": {
-            "value": "{base.colors.brand.electric green.900}",
-            "type": "color"
-          },
-          "less": {
-            "value": "{base.colors.brand.electric green.800}",
-            "type": "color"
-          }
+        "muted": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Colour of text that's muted and not as bright as normal text on all layers"
         },
         "inverse": {
-          "high": {
-            "value": "{base.colors.zinc.50}",
-            "type": "color"
+          "normal": {
+            "value": "{base.primitive.zinc.50}",
+            "type": "color",
+            "description": "Colour of text that's strong and well contrasted on inverse colour backgrounds"
           },
-          "less": {
-            "value": "{base.colors.zinc.300}",
-            "type": "color"
+          "muted": {
+            "value": "{base.primitive.zinc.300}",
+            "type": "color",
+            "description": "Colour of text that's muted and less contrasted on inverse colour backgrounds"
           }
         },
         "status": {
-          "on error": {
-            "value": "{base.colors.zinc.800}",
-            "type": "color"
-          },
-          "on warning": {
-            "value": "{base.colors.zinc.800}",
-            "type": "color"
-          },
-          "on info": {
-            "value": "{base.colors.zinc.800}",
-            "type": "color"
-          },
-          "on success": {
-            "value": "{base.colors.zinc.800}",
-            "type": "color"
-          },
-          "on placed": {
-            "value": "{base.colors.blue.900}",
-            "type": "color"
-          },
-          "on fully matched": {
-            "value": "{base.colors.green.900}",
-            "type": "color"
-          },
-          "on partially matched": {
-            "value": "{base.colors.emerald.900}",
-            "type": "color"
-          },
-          "on cancelled": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color"
-          },
-          "on partially cancelled": {
-            "value": "{base.colors.amber.900}",
-            "type": "color"
-          },
-          "on complete": {
-            "value": "{base.colors.green.900}",
-            "type": "color"
-          },
-          "on pending": {
-            "value": "{base.colors.amber.900}",
-            "type": "color"
-          },
-          "on failed": {
-            "value": "{base.colors.red.900}",
-            "type": "color"
-          },
-          "on accepted": {
-            "value": "{base.colors.blue.900}",
-            "type": "color"
-          }
-        },
-        "status on surface": {
           "success": {
-            "value": "{base.colors.green.700}",
+            "value": "{base.primitive.green.700}",
             "type": "color",
             "description": "Success status text on surfaces"
           },
           "info": {
-            "value": "{base.colors.blue.600}",
+            "value": "{base.primitive.blue.600}",
             "type": "color",
-            "description": "Info status text on surfaces"
+            "description": "Info status text on layers"
           },
           "error": {
-            "value": "{base.colors.red.700}",
+            "value": "{base.primitive.red.700}",
             "type": "color",
-            "description": "Error status text on surfaces"
+            "description": "Error status text on layers"
           },
           "warning": {
-            "value": "{base.colors.amber.700}",
+            "value": "{base.primitive.amber.700}",
             "type": "color",
-            "description": "Warning status text on surfaces"
+            "description": "Warning status text on layers"
           },
-          "chart-negative": {
-            "value": "{base.colors.rose.700}",
+          "downtrend": {
+            "value": "{base.primitive.rose.700}",
             "type": "color",
-            "description": "Chart negative status text on surfaces"
+            "description": "Downtrend colour text on layers"
           },
-          "chart-positive": {
-            "value": "{base.colors.emerald.700}",
+          "uptrend": {
+            "value": "{base.primitive.emerald.700}",
             "type": "color",
-            "description": "Chart positive status text on surfaces"
-          }
-        }
-      },
-      "status": {
-        "system": {
-          "info": {
-            "value": "{base.colors.brand.sand.50}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{base.colors.amber.100}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{base.colors.green.100}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{base.colors.red.100}",
-            "type": "color"
-          },
-          "on error alt": {
-            "value": "{base.colors.red.900}",
-            "type": "color"
-          },
-          "on warning alt": {
-            "value": "{base.colors.amber.900}",
-            "type": "color"
-          },
-          "on info alt": {
-            "value": "{base.colors.brand.sand.900}",
-            "type": "color"
-          },
-          "on success alt": {
-            "value": "{base.colors.green.900}",
-            "type": "color"
-          }
-        },
-        "orders": {
-          "placed": {
-            "value": "{base.colors.blue.100}",
-            "type": "color"
-          },
-          "full matched": {
-            "value": "{base.colors.green.100}",
-            "type": "color"
-          },
-          "partially matched": {
-            "value": "{base.colors.emerald.100}",
-            "type": "color"
-          },
-          "cancelled": {
-            "value": "{base.colors.zinc.200}",
-            "type": "color"
-          },
-          "partially cancelled": {
-            "value": "{base.colors.amber.100}",
-            "type": "color"
-          },
-          "failed": {
-            "value": "{base.colors.red.100}",
-            "type": "color"
-          },
-          "complete": {
-            "value": "{base.colors.green.100}",
-            "type": "color"
-          },
-          "pending": {
-            "value": "{base.colors.amber.100}",
-            "type": "color"
-          },
-          "accepted": {
-            "value": "{base.colors.blue.100}",
-            "type": "color"
+            "description": "Uptrend colour text on layers"
           }
         }
       },
       "utility": {
-        "outline": {
-          "value": "{base.colors.zinc.300}",
-          "type": "color"
+        "border muted": {
+          "value": "{base.primitive.zinc.200}",
+          "type": "color",
+          "description": "Border muted colour"
         },
-        "button outline": {
-          "value": "{base.colors.zinc.200}",
-          "type": "color"
-        },
-        "divider muted": {
-          "value": "{base.colors.zinc.200}",
-          "type": "color"
-        },
-        "divider strong": {
-          "value": "{base.colors.zinc.300}",
-          "type": "color"
+        "border normal": {
+          "value": "{base.primitive.zinc.300}",
+          "type": "color",
+          "description": "Border normal colour"
         },
         "inverse": {
-          "value": "{base.colors.general.black}",
+          "value": "{base.primitive.general.black}",
           "type": "color"
         },
         "focus ring": {
-          "value": "{base.colors.zinc.600}",
+          "value": "{base.primitive.zinc.600}",
           "type": "color"
-        },
-        "input bg": {
-          "value": "rgba(255,255,255,0)",
-          "type": "color",
-          "description": "Input background colour"
-        },
-        "fg on input": {
-          "value": "rgba(255,255,255,0)",
-          "type": "color",
-          "description": "Foreground colour of layer on an input background"
-        },
-        "input outline": {
-          "value": "{base.colors.zinc.300}",
-          "type": "color",
-          "description": "Input outline colour"
-        },
-        "neutral bg": {
-          "value": "{base.colors.zinc.300}",
-          "type": "color",
-          "description": "Neutral background colour of layers on surface backgrounds"
         }
       },
-      "interactive": {
+      "component": {
         "button": {
-          "brand bg default": {
-            "value": "{base.colors.brand.electric green.300}",
-            "type": "color",
-            "description": "Brand button background default state colour"
+          "primary": {
+            "default": {
+              "value": "{base.primitive.brand.electric green.300}",
+              "type": "color",
+              "description": "Primary button default state colour"
+            },
+            "hover": {
+              "value": "{base.primitive.brand.electric green.400}",
+              "type": "color",
+              "description": "Primary button hover state colour"
+            },
+            "pressed": {
+              "value": "{base.primitive.brand.electric green.500}",
+              "type": "color",
+              "description": "Brand button pressed state colour"
+            },
+            "border default": {
+              "value": "{base.primitive.brand.electric green.600}",
+              "type": "color",
+              "description": "Brand button border default state"
+            },
+            "fg": {
+              "value": "{base.primitive.brand.electric green.900}",
+              "type": "color",
+              "description": "Primary button foreground default state colour"
+            }
           },
-          "brand bg hover": {
-            "value": "{base.colors.brand.electric green.400}",
-            "type": "color",
-            "description": "Brand button background hover state colour"
+          "secondary": {
+            "border default": {
+              "value": "{base.primitive.zinc.500}",
+              "type": "color",
+              "description": "Secondary button border default state colour"
+            },
+            "border hover": {
+              "value": "{base.primitive.zinc.700}",
+              "type": "color",
+              "description": "Secondary button border hover state colour"
+            },
+            "border pressed": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Secondary button border pressed state colour"
+            },
+            "fg default": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Secondary button foreground default state colour"
+            },
+            "fg hover": {
+              "value": "{base.primitive.zinc.700}",
+              "type": "color",
+              "description": "Secondary button foreground hover state colour"
+            },
+            "fg pressed": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Secondary button foreground pressed state colour"
+            }
           },
-          "brand bg pressed": {
-            "value": "{base.colors.brand.electric green.500}",
-            "type": "color",
-            "description": "Brand button background pressed state colour"
+          "tertiary": {
+            "default": {
+              "value": "{base.primitive.zinc.300}",
+              "type": "color",
+              "description": "Tertiary button default state colour"
+            },
+            "hover": {
+              "value": "{base.primitive.zinc.400}",
+              "type": "color",
+              "description": "Tertiary button hover state colour"
+            },
+            "pressed": {
+              "value": "{base.primitive.zinc.300}",
+              "type": "color",
+              "description": "Tertiary button pressed state colour"
+            },
+            "fg": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Primary button foreground default state colour"
+            }
           },
-          "brand border default": {
-            "value": "{base.colors.brand.electric green.600}",
-            "type": "color",
-            "description": "Brand button border default state"
+          "destructive": {
+            "default": {
+              "value": "{base.primitive.red.500}",
+              "type": "color",
+              "description": "Destructive button default state colour"
+            },
+            "hover": {
+              "value": "{base.primitive.red.400}",
+              "type": "color",
+              "description": "Destructive button hover state colour"
+            },
+            "pressed": {
+              "value": "{base.primitive.red.500}",
+              "type": "color",
+              "description": "Destructive button pressed state colour"
+            },
+            "fg": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Destructive button foreground colour"
+            }
           },
-          "primary border default": {
-            "value": "{base.colors.zinc.500}",
-            "type": "color",
-            "description": "Primary button border default state colour"
+          "buy": {
+            "border default": {
+              "value": "{base.primitive.emerald.500}",
+              "type": "color",
+              "description": "Buy button border default state colour"
+            },
+            "fg": {
+              "value": "{base.primitive.emerald.500}",
+              "type": "color",
+              "description": "Buy alt button foreground colour"
+            },
+            "border hover": {
+              "value": "{base.primitive.emerald.400}",
+              "type": "color",
+              "description": "Buy button border hover state colour"
+            },
+            "border pressed": {
+              "value": "{base.primitive.emerald.500}",
+              "type": "color",
+              "description": "Buy button border pressed state colour"
+            }
           },
-          "primary border hover": {
-            "value": "{base.colors.zinc.700}",
-            "type": "color",
-            "description": "Primary button border hover state colour"
+          "sell": {
+            "border default": {
+              "value": "{base.primitive.rose.500}",
+              "type": "color",
+              "description": "Sell button border default state colour"
+            },
+            "fg": {
+              "value": "{base.primitive.rose.500}",
+              "type": "color",
+              "description": "Sell button foreground colour"
+            },
+            "border hover": {
+              "value": "{base.primitive.rose.400}",
+              "type": "color",
+              "description": "Sell button border hover state colour"
+            },
+            "border pressed": {
+              "value": "{base.primitive.rose.500}",
+              "type": "color",
+              "description": "Sell button border pressed state colour"
+            }
           },
-          "primary border pressed": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Primary button border pressed state colour"
+          "ghost": {
+            "fg default": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Ghost button foreground default state colour"
+            },
+            "fg hover": {
+              "value": "{base.primitive.zinc.700}",
+              "type": "color",
+              "description": "Ghost button foreground default state colour"
+            },
+            "fg pressed": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Ghost button foreground pressed state colour"
+            }
           },
-          "buy bg default": {
-            "value": "{base.colors.emerald.500}",
-            "type": "color",
-            "description": "Buy button background default state colour"
-          },
-          "buy bg hover": {
-            "value": "{base.colors.emerald.400}",
-            "type": "color",
-            "description": "Buy button background hover state colour"
-          },
-          "buy bg pressed": {
-            "value": "{base.colors.emerald.500}",
-            "type": "color",
-            "description": "Buy button background pressed state colour"
-          },
-          "sell bg default": {
-            "value": "{base.colors.rose.500}",
-            "type": "color",
-            "description": "Sell button background default state colour"
-          },
-          "destructive bg default": {
-            "value": "{base.colors.red.500}",
-            "type": "color",
-            "description": "Destructive button background default state colour"
-          },
-          "sell bg hover": {
-            "value": "{base.colors.rose.400}",
-            "type": "color",
-            "description": "Sell button background hover state colour"
-          },
-          "destructive bg hover": {
-            "value": "{base.colors.red.400}",
-            "type": "color",
-            "description": "Destructive button background hover state colour"
-          },
-          "sell bg pressed": {
-            "value": "{base.colors.rose.500}",
-            "type": "color",
-            "description": "Sell button background pressed state colour"
-          },
-          "destructive bg pressed": {
-            "value": "{base.colors.red.500}",
-            "type": "color",
-            "description": "Destructive button background pressed state colour"
-          },
-          "brand label": {
-            "value": "{base.colors.brand.electric green.900}",
-            "type": "color",
-            "description": "Brand button label default state colour"
-          },
-          "primary label default": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Primary button label default state colour"
-          },
-          "destructive label": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Destructive button label colour"
-          },
-          "buy label": {
-            "value": "{base.colors.zinc.50}",
-            "type": "color",
-            "description": "Buy button label default state colour"
-          },
-          "sell label": {
-            "value": "{base.colors.zinc.50}",
-            "type": "color",
-            "description": "Sell button label default state colour"
-          },
-          "primary label hover": {
-            "value": "{base.colors.zinc.700}",
-            "type": "color",
-            "description": "Primary button label hover state colour"
-          },
-          "primary label pressed": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Primary button label pressed state colour"
-          },
-          "brand label disabled": {
-            "value": "#80938d",
-            "type": "color",
-            "description": "Brand button label disabled state colour"
-          },
-          "buy alt border default": {
-            "value": "{base.colors.emerald.500}",
-            "type": "color",
-            "description": "But alt button border default state colour"
-          },
-          "buy alt label default": {
-            "value": "{base.colors.emerald.500}",
-            "type": "color",
-            "description": "But alt button label default state colour"
-          },
-          "buy alt border hover": {
-            "value": "{base.colors.emerald.400}",
-            "type": "color",
-            "description": "But alt button border hover state colour"
-          },
-          "buy alt border pressed": {
-            "value": "{base.colors.emerald.500}",
-            "type": "color",
-            "description": "But alt button border pressed state colour"
-          },
-          "sell alt border default": {
-            "value": "{base.colors.rose.500}",
-            "type": "color",
-            "description": "Sell alt button border default state colour"
-          },
-          "sell alt border label": {
-            "value": "{base.colors.rose.500}",
-            "type": "color",
-            "description": "Sell alt button label default state colour"
-          },
-          "sell alt border hover": {
-            "value": "{base.colors.rose.400}",
-            "type": "color",
-            "description": "Sell alt button border hover state colour"
-          },
-          "sell alt border pressed": {
-            "value": "{base.colors.rose.500}",
-            "type": "color",
-            "description": "Sell alt button border pressed state colour"
-          },
-          "secondary label default": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Secondary button label default state colour"
-          },
-          "secondary label hover": {
-            "value": "{base.colors.zinc.700}",
-            "type": "color",
-            "description": "Secondary button label hover state colour"
-          },
-          "secondary label pressed": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Secondary button label pressed state colour"
-          },
-          "ghost link label default": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Ghost link label default state colour"
-          },
-          "ghost link underline default": {
-            "value": "{base.colors.brand.electric green.500}",
-            "type": "color",
-            "description": "Ghost link underline default state colour"
-          },
-          "ghost link label hover": {
-            "value": "{base.colors.zinc.700}",
-            "type": "color",
-            "description": "Ghost link label hover state colour"
-          },
-          "ghost link label pressed": {
-            "value": "{base.colors.zinc.900}",
-            "type": "color",
-            "description": "Ghost link label pressed state colour"
-          },
-          "ghost link underline hover": {
-            "value": "{base.colors.brand.electric green.400}",
-            "type": "color",
-            "description": "Ghost link underline hover state colour"
-          },
-          "ghost link underline pressed": {
-            "value": "{base.colors.brand.electric green.300}",
-            "type": "color",
-            "description": "Ghost link underline pressed state colour"
+          "link": {
+            "fg default": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Link foreground default state colour"
+            },
+            "underline default": {
+              "value": "{base.primitive.brand.electric green.500}",
+              "type": "color",
+              "description": "Link underline default state colour"
+            },
+            "fg hover": {
+              "value": "{base.primitive.zinc.700}",
+              "type": "color",
+              "description": "Link foreground hover state colour"
+            },
+            "fg pressed": {
+              "value": "{base.primitive.zinc.900}",
+              "type": "color",
+              "description": "Link foreground pressed state colour"
+            },
+            "underline hover": {
+              "value": "{base.primitive.brand.electric green.400}",
+              "type": "color",
+              "description": "Link underline hover state colour"
+            },
+            "underline pressed": {
+              "value": "{base.primitive.brand.electric green.300}",
+              "type": "color",
+              "description": "Link underline pressed state colour"
+            }
           }
         },
-        "outline": {
-          "default": {
-            "value": "{base.colors.zinc.500}",
+        "input": {
+          "border default": {
+            "value": "{base.primitive.zinc.500}",
             "type": "color",
-            "description": "Outlined interactive element default state"
+            "description": "Input border default state colour"
+          },
+          "fg": {
+            "value": "{base.primitive.zinc.900}",
+            "type": "color",
+            "description": "Input foreground (text) colour"
+          },
+          "fg placeholder": {
+            "value": "{base.primitive.zinc.500}",
+            "type": "color",
+            "description": "Input foreground (text) placeholder colour"
+          },
+          "border active": {
+            "value": "{base.primitive.brand.electric green.500}",
+            "type": "color",
+            "description": "Input border active state colour"
+          },
+          "border hover": {
+            "value": "{base.primitive.zinc.600}",
+            "type": "color",
+            "description": "Input border hover state colour"
+          },
+          "border danger": {
+            "value": "{base.primitive.red.500}",
+            "type": "color",
+            "description": "Input border error state colour"
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color",
+            "description": "Input border default state colour"
+          }
+        },
+        "menu-items": {
+          "hover": {
+            "value": "{base.primitive.zinc.100}",
+            "type": "color",
+            "description": "Menu item colour on hover state"
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color",
+            "description": "Menu item colour on default state"
           },
           "active": {
-            "value": "{base.colors.brand.electric green.500}",
+            "value": "{base.primitive.zinc.100}",
             "type": "color",
-            "description": "Outlined interactive element active state"
+            "description": "Menu item colour on active state"
+          },
+          "fg default": {
+            "value": "{base.primitive.zinc.700}",
+            "type": "color",
+            "description": "Menu item foreground colour on default state"
+          },
+          "fg hover": {
+            "value": "{base.primitive.zinc.700}",
+            "type": "color",
+            "description": "Menu item foreground colour on hover state"
+          },
+          "fg active": {
+            "value": "{base.primitive.zinc.900}",
+            "type": "color",
+            "description": "Menu item foreground colour on active state"
+          }
+        },
+        "tabs-contained": {
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color",
+            "description": "Tabs contained default state colour"
           },
           "hover": {
-            "value": "{base.colors.zinc.600}",
+            "value": "{base.primitive.zinc.50}",
             "type": "color",
-            "description": "Outlined interactive element hover state"
+            "description": "Tabs contained hover state colour"
           },
-          "disabled": {
-            "value": "{base.colors.zinc.300}",
+          "active": {
+            "value": "{base.primitive.zinc.50}",
             "type": "color",
-            "description": "Outlined interactive element disabled state"
+            "description": "Tabs contained active state colour"
           },
-          "danger": {
-            "value": "{base.colors.red.500}",
+          "fg default": {
+            "value": "{base.primitive.zinc.700}",
             "type": "color",
-            "description": "Outlined interactive element error state"
+            "description": "Tabs contained foreground default state colour"
+          },
+          "fg hover": {
+            "value": "{base.primitive.zinc.700}",
+            "type": "color",
+            "description": "Tabs contained foreground hover state colour"
+          },
+          "fg active": {
+            "value": "{base.primitive.zinc.900}",
+            "type": "color",
+            "description": "Tabs contained foreground active state colour"
+          },
+          "container bg": {
+            "value": "{base.primitive.zinc.100}",
+            "type": "color",
+            "description": "Tabs contained background colour"
           }
-        }
-      },
-      "neutral": {
-        "bg hover": {
-          "value": "{base.colors.zinc.100}",
-          "type": "color",
-          "description": "Menu item background on hover state"
-        },
-        "bg active": {
-          "value": "{base.colors.zinc.100}",
-          "type": "color",
-          "description": "Menu item background on active state"
-        },
-        "label default": {
-          "value": "{base.colors.zinc.700}",
-          "type": "color",
-          "description": "Menu item label on default state"
-        },
-        "label hover": {
-          "value": "{base.colors.zinc.700}",
-          "type": "color",
-          "description": "Menu item label on hover state"
-        },
-        "label active": {
-          "value": "{base.colors.zinc.900}",
-          "type": "color",
-          "description": "Menu item label on active state"
-        },
-        "label disabled": {
-          "value": "{base.colors.zinc.300}",
-          "type": "color",
-          "description": "Menu item label on disabled state"
-        }
-      },
-      "tabs-contained": {
-        "bg default": {
-          "value": "rgba(255,255,255,0)",
-          "type": "color",
-          "description": "Tabs contained variant background default state"
-        },
-        "bg hover": {
-          "value": "{base.colors.zinc.50}",
-          "type": "color",
-          "description": "Tabs contained variant background hover state"
-        },
-        "bg active": {
-          "value": "{base.colors.zinc.50}",
-          "type": "color",
-          "description": "Tabs contained variant background active state"
-        },
-        "label default": {
-          "value": "{base.colors.zinc.700}",
-          "type": "color",
-          "description": "Tabs contained variant label default state"
-        },
-        "label hover": {
-          "value": "{base.colors.zinc.700}",
-          "type": "color",
-          "description": "Tabs contained variant label hover state"
-        },
-        "label active": {
-          "value": "{base.colors.zinc.900}",
-          "type": "color",
-          "description": "Tabs contained variant label active state"
-        },
-        "container bg": {
-          "value": "{base.colors.zinc.100}",
-          "type": "color",
-          "description": "Tabs contained background colour"
         }
       }
     },
@@ -2217,6 +2180,44 @@
       "system": {
         "value": "IBM Plex Sans",
         "type": "text"
+      }
+    },
+    "shadow": {
+      "sm": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.04)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Light theme shadow size sm"
+      },
+      "md": {
+        "value": {
+          "x": "0",
+          "y": "6",
+          "blur": "16",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.04)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Light theme shadow size md"
+      },
+      "lg": {
+        "value": {
+          "x": "0",
+          "y": "12",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.04)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Light theme shadow size lg"
       }
     }
   }
