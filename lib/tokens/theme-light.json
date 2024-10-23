@@ -54,7 +54,7 @@
             "description": "hsl(46, 14%, 18%)"
           }
         },
-        "electric green": {
+        "primary": {
           "50": {
             "value": "#bdffeb",
             "type": "color",
@@ -1150,17 +1150,17 @@
         "description": "Colour of text and icons that's strong and well contrasted on all layers"
       },
       "primary": {
-        "value": "{base.primitive.brand.electric green.400}",
+        "value": "{base.primitive.brand.primary.400}",
         "type": "color",
         "description": "Brand primary colour used in a wide range of contexts"
       },
       "primary-foreground": {
-        "value": "{base.primitive.brand.electric green.900}",
+        "value": "{base.primitive.brand.primary.900}",
         "type": "color",
         "description": "Text and icons colour sitting on top of primary background colour"
       },
       "primary-hocus": {
-        "value": "{base.primitive.brand.electric green.400}",
+        "value": "{base.primitive.brand.primary.400}",
         "type": "color",
         "description": "Primary button hover and focus state colour"
       },
@@ -1275,7 +1275,7 @@
         "description": "Link foreground default state colour"
       },
       "link-border": {
-        "value": "{base.primitive.brand.electric green.500}",
+        "value": "{base.primitive.brand.primary.500}",
         "type": "color",
         "description": "Link underline default state colour"
       },
@@ -1285,7 +1285,7 @@
         "description": "Link foreground hover state colour"
       },
       "link-border-hocus": {
-        "value": "{base.primitive.brand.electric green.400}",
+        "value": "{base.primitive.brand.primary.400}",
         "type": "color",
         "description": "Link underline hover state colour"
       },
@@ -1305,7 +1305,7 @@
         "description": "Input foreground (text) placeholder colour"
       },
       "input-border-active": {
-        "value": "{base.primitive.brand.electric green.500}",
+        "value": "{base.primitive.brand.primary.500}",
         "type": "color",
         "description": "Input border active state colour"
       },

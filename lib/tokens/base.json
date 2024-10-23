@@ -54,7 +54,7 @@
             "description": "hsl(46, 14%, 18%)"
           }
         },
-        "electric green": {
+        "primary": {
           "50": {
             "value": "#bdffeb",
             "type": "color",
