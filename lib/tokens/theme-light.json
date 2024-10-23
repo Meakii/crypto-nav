@@ -1158,7 +1158,7 @@
         "description": "Text and icons colour sitting on top of primary background colour"
       },
       "primary-hocus": {
-        "value": "{base.primitive.primary.400}",
+        "value": "{base.primitive.primary.300}",
         "type": "color",
         "description": "Primary button hover and focus state colour"
       },
