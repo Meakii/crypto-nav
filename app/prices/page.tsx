@@ -17,7 +17,7 @@ export default function Prices() {
 
       <div className="flex flex-row gap-4">
         <Button variant="primary">Deposit AUD</Button>
-        <Button variant="tertiary">Withdraw</Button>
+        <Button variant="secondary">Withdraw</Button>
       </div>
     </motion.div>
   );

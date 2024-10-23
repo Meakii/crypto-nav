@@ -1,6 +1,7 @@
-import './globals.css';
 import '../lib/styles/btcm-theme.scss';
 import '../lib/styles/custom.scss';
+import './globals.css';
+
 import { IBM_Plex_Sans } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import Sidebar from '@/components/Sidebar';

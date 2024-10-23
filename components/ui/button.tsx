@@ -10,8 +10,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: 'btcm-button-primary',
-        secondary: 'btcm-button-secondary',
+        primary: "bg-primary hover:bg-primary-hover text-primary-foreground",
+        secondary: "border border-solid border-secondary-border text-secondary-foreground hover:border-secondary-border-hover hover:text-secondary-foreground-hover",
         tertiary: 'btcm-button-tertiary',
         buy: 'btcm-button-buy',
         sell: 'btcm-button-sell',
