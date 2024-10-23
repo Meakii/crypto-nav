@@ -271,6 +271,11 @@
           "value": "#18181b",
           "type": "color",
           "description": "hsl(240, 6%, 10%)"
+        },
+        "950": {
+          "value": "#09090B",
+          "type": "color",
+          "description": "hsl(240, 10%, 4%)"
         }
       },
       "neutral": {
@@ -1336,7 +1341,7 @@
         }
       }
     },
-    "radius": {
+    "rounded": {
       "none": {
         "value": "0",
         "type": "number",
@@ -1505,16 +1510,6 @@
         "value": "128",
         "type": "number",
         "description": "Space 32 based on 4px base size"
-      },
-      "64": {
-        "value": "256",
-        "type": "number",
-        "description": "Space 64 based on 4px base size"
-      },
-      "128": {
-        "value": "512",
-        "type": "number",
-        "description": "Space 128 based on 4px base size"
       },
       "1-5": {
         "value": "6",
