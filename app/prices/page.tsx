@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 export default function Prices() {
   return (
@@ -12,7 +13,12 @@ export default function Prices() {
       transition={{ duration: 0.3 }}
     >
       <h1 className="text-3xl font-bold mb-6">Prices</h1>
-      <p>View the latest market prices here.</p>
+      {/* <p>View the latest market prices here.</p> */}
+
+      <div className="flex flex-row gap-4">
+        <Button variant="primary">Deposit AUD</Button>
+        <Button variant="tertiary">Withdraw</Button>
+      </div>
     </motion.div>
   );
 }
