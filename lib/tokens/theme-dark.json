@@ -1,110 +1,108 @@
 {
   "base": {
     "primitive": {
-      "brand": {
-        "sand": {
-          "50": {
-            "value": "#fcfbf8",
-            "type": "color",
-            "description": "hsl(45, 40%, 98%)"
-          },
-          "100": {
-            "value": "#fffbf0",
-            "type": "color",
-            "description": "hsl(44, 100%, 97%)"
-          },
-          "200": {
-            "value": "#fcf6e5",
-            "type": "color",
-            "description": "hsl(44, 79%, 94%)"
-          },
-          "300": {
-            "value": "#f4efdc",
-            "type": "color",
-            "description": "hsl(47, 52%, 91%)"
-          },
-          "400": {
-            "value": "#eae1c0",
-            "type": "color",
-            "description": "hsl(47, 50%, 84%)"
-          },
-          "500": {
-            "value": "#c9c1a6",
-            "type": "color",
-            "description": "hsl(46, 24%, 72%)"
-          },
-          "600": {
-            "value": "#a9a28a",
-            "type": "color",
-            "description": "hsl(46, 15%, 60%)"
-          },
-          "700": {
-            "value": "#8a8571",
-            "type": "color",
-            "description": "hsl(48, 10%, 49%)"
-          },
-          "800": {
-            "value": "#565243",
-            "type": "color",
-            "description": "hsl(47, 12%, 30%)"
-          },
-          "900": {
-            "value": "#353228",
-            "type": "color",
-            "description": "hsl(46, 14%, 18%)"
-          }
+      "sand": {
+        "50": {
+          "value": "#fcfbf8",
+          "type": "color",
+          "description": "hsl(45, 40%, 98%)"
         },
-        "primary": {
-          "50": {
-            "value": "#bdffeb",
-            "type": "color",
-            "description": "hsl(162, 100%, 87%)"
-          },
-          "100": {
-            "value": "#88ffdb",
-            "type": "color",
-            "description": "hsl(162, 100%, 77%)"
-          },
-          "200": {
-            "value": "#4cfdc7",
-            "type": "color",
-            "description": "hsl(162, 98%, 65%)"
-          },
-          "300": {
-            "value": "#2fe8af",
-            "type": "color",
-            "description": "hsl(162, 80%, 55%)"
-          },
-          "400": {
-            "value": "#1bcd97",
-            "type": "color",
-            "description": "hsl(162, 77%, 45%)"
-          },
-          "500": {
-            "value": "#11ac7c",
-            "type": "color",
-            "description": "hsl(161, 82%, 37%)"
-          },
-          "600": {
-            "value": "#0b8c64",
-            "type": "color",
-            "description": "hsl(161, 85%, 30%)"
-          },
-          "700": {
-            "value": "#0a6b4d",
-            "type": "color",
-            "description": "hsl(161, 83%, 23%)"
-          },
-          "800": {
-            "value": "#034531",
-            "type": "color",
-            "description": "hsl(162, 92%, 14%)"
-          },
-          "900": {
-            "value": "#01271c",
-            "type": "color",
-            "description": "hsl(163, 95%, 8%)"
-          }
+        "100": {
+          "value": "#fffbf0",
+          "type": "color",
+          "description": "hsl(44, 100%, 97%)"
+        },
+        "200": {
+          "value": "#fcf6e5",
+          "type": "color",
+          "description": "hsl(44, 79%, 94%)"
+        },
+        "300": {
+          "value": "#f4efdc",
+          "type": "color",
+          "description": "hsl(47, 52%, 91%)"
+        },
+        "400": {
+          "value": "#eae1c0",
+          "type": "color",
+          "description": "hsl(47, 50%, 84%)"
+        },
+        "500": {
+          "value": "#c9c1a6",
+          "type": "color",
+          "description": "hsl(46, 24%, 72%)"
+        },
+        "600": {
+          "value": "#a9a28a",
+          "type": "color",
+          "description": "hsl(46, 15%, 60%)"
+        },
+        "700": {
+          "value": "#8a8571",
+          "type": "color",
+          "description": "hsl(48, 10%, 49%)"
+        },
+        "800": {
+          "value": "#565243",
+          "type": "color",
+          "description": "hsl(47, 12%, 30%)"
+        },
+        "900": {
+          "value": "#353228",
+          "type": "color",
+          "description": "hsl(46, 14%, 18%)"
+        }
+      },
+      "primary": {
+        "50": {
+          "value": "#bdffeb",
+          "type": "color",
+          "description": "hsl(162, 100%, 87%)"
+        },
+        "100": {
+          "value": "#88ffdb",
+          "type": "color",
+          "description": "hsl(162, 100%, 77%)"
+        },
+        "200": {
+          "value": "#4cfdc7",
+          "type": "color",
+          "description": "hsl(162, 98%, 65%)"
+        },
+        "300": {
+          "value": "#2fe8af",
+          "type": "color",
+          "description": "hsl(162, 80%, 55%)"
+        },
+        "400": {
+          "value": "#1bcd97",
+          "type": "color",
+          "description": "hsl(162, 77%, 45%)"
+        },
+        "500": {
+          "value": "#11ac7c",
+          "type": "color",
+          "description": "hsl(161, 82%, 37%)"
+        },
+        "600": {
+          "value": "#0b8c64",
+          "type": "color",
+          "description": "hsl(161, 85%, 30%)"
+        },
+        "700": {
+          "value": "#0a6b4d",
+          "type": "color",
+          "description": "hsl(161, 83%, 23%)"
+        },
+        "800": {
+          "value": "#034531",
+          "type": "color",
+          "description": "hsl(162, 92%, 14%)"
+        },
+        "900": {
+          "value": "#01271c",
+          "type": "color",
+          "description": "hsl(163, 95%, 8%)"
         }
       },
       "general": {
@@ -1150,17 +1148,17 @@
         "description": "Colour of text sitting on top of popovers and modals"
       },
       "primary": {
-        "value": "{base.primitive.brand.primary.200}",
+        "value": "{base.primitive.primary.200}",
         "type": "color",
         "description": "Brand primary colour used in a wide range of contexts"
       },
       "primary-hocus": {
-        "value": "{base.primitive.brand.primary.100}",
+        "value": "{base.primitive.primary.100}",
         "type": "color",
         "description": "Primary button hover and focus state colour"
       },
       "primary-foreground": {
-        "value": "{base.primitive.brand.primary.900}",
+        "value": "{base.primitive.primary.900}",
         "type": "color",
         "description": "Text and icons colour sitting on top of primary background colour"
       },
@@ -1260,7 +1258,7 @@
         "description": "Link foreground default state colour"
       },
       "link-border": {
-        "value": "{base.primitive.brand.primary.200}",
+        "value": "{base.primitive.primary.200}",
         "type": "color",
         "description": "Link underline default state colour"
       },
@@ -1270,7 +1268,7 @@
         "description": "Link foreground hover state colour"
       },
       "link-border-hocus": {
-        "value": "{base.primitive.brand.primary.300}",
+        "value": "{base.primitive.primary.300}",
         "type": "color",
         "description": "Link underline hover state colour"
       },
@@ -1300,7 +1298,7 @@
         "description": "Input field background colour"
       },
       "input-border-active": {
-        "value": "{base.primitive.brand.primary.300}",
+        "value": "{base.primitive.primary.300}",
         "type": "color",
         "description": "Input border active state colour"
       },
