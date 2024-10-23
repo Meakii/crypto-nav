@@ -167,6 +167,11 @@
           "value": "#111827",
           "type": "color",
           "description": "hsl(221, 39%, 11%)"
+        },
+        "950": {
+          "value": "#111827",
+          "type": "color",
+          "description": "hsl(224, 71%, 4%)"
         }
       },
       "zinc": {
@@ -276,6 +281,11 @@
           "value": "#7f1d1d",
           "type": "color",
           "description": "hsl(0, 63%, 31%)"
+        },
+        "950": {
+          "value": "#450A0A",
+          "type": "color",
+          "description": "hsl(0, 75%, 15%)"
         }
       },
       "amber": {
@@ -328,6 +338,11 @@
           "value": "#78350f",
           "type": "color",
           "description": "hsl(22, 78%, 26%)"
+        },
+        "950": {
+          "value": "#431407",
+          "type": "color",
+          "description": "hsl(13, 81%, 15%)"
         }
       },
       "green": {
@@ -380,6 +395,11 @@
           "value": "#14532d",
           "type": "color",
           "description": "hsl(144, 61%, 20%)"
+        },
+        "950": {
+          "value": "#052E16",
+          "type": "color",
+          "description": "hsl(145, 80%, 10%)"
         }
       },
       "emerald": {
@@ -432,6 +452,11 @@
           "value": "#064e3b",
           "type": "color",
           "description": "hsl(164, 86%, 16%)"
+        },
+        "950": {
+          "value": "#052E16",
+          "type": "color",
+          "description": "hsl(145, 80%, 10%)"
         }
       },
       "blue": {
@@ -484,6 +509,11 @@
           "value": "#1e3a8a",
           "type": "color",
           "description": "hsl(224, 64%, 33%)"
+        },
+        "950": {
+          "value": "#172554",
+          "type": "color",
+          "description": "hsl(226, 57%, 21%)"
         }
       },
       "rose": {
@@ -536,6 +566,11 @@
           "value": "#881337",
           "type": "color",
           "description": "hsl(342, 75%, 30%)"
+        },
+        "950": {
+          "value": "#4C0519",
+          "type": "color",
+          "description": "hsl(343, 88%, 16%)"
         }
       }
     },
