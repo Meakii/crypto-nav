@@ -1,19 +1,20 @@
 import '../lib/styles/btcm-theme.scss';
 import '../lib/styles/custom.scss';
+import '../lib/styles/fonts.scss';
 import './globals.css';
 
-import { IBM_Plex_Sans } from 'next/font/google';
+// import { IBM_Plex_Sans } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import Sidebar from '@/components/Sidebar';
 import Header from '@/components/Header';
 import MobileMenu from '@/components/MobileMenu';
 import ClientWrapper from '@/components/ClientWrapper';
 
-const ibmPlexSans = IBM_Plex_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--ibm-plex-sans',
-});
+// const ibmPlexSans = IBM_Plex_Sans({
+//   subsets: ['latin'],
+//   weight: ['400', '500', '600', '700'],
+//   variable: '--ibm-plex-sans',
+// });
 
 export default function RootLayout({
   children,
@@ -22,7 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${ibmPlexSans.variable} font-sans`}>
+     {/* <body className={`${ibmPlexSans.variable} font-sans`}> */}
+
+      <body >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

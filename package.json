@@ -9,7 +9,7 @@
     "lint": "next lint",
     "convert-design-tokens": "node ./lib/utils/convert-design-tokens.js && node ./lib/utils/transform-tokens.js"
   },
- 
+"type": "module",
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",

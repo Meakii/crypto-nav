@@ -20,9 +20,9 @@ const config = {
       },
     },
     extend: {
-      fontFamily: {
-        sans: ["var(--ibm-plex-sans)", ...fontFamily.sans],
-      },
+      // fontFamily: {
+      //   sans: ["var(--ibm-plex-sans)", ...fontFamily.sans],
+      // },
 
       borderWidth: {
         DEFAULT: 'var(--border-width-border)',
@@ -30,13 +30,7 @@ const config = {
         4: 'var(--border-width-4)',
         8: 'var(--border-width-8)',
       },
-
        colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: 'var(--primary)',
           hover: 'var(--primary-hocus)',
@@ -50,6 +44,14 @@ const config = {
           'border-width-border': 'var(--border-width-border)',
           'foreground-hover': 'var(--secondary-foreground-hocus)',
         },
+
+
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",

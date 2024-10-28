@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Harmony Sans';
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Light';
+   src: url('../fonts/Harmony-Sans-Light.woff2') format('woff2-variations'),
+   url('../fonts/Harmony-Sans-Light.woff') format('woff-variations');
+  }
+  @font-face {
+    font-family: 'Harmony Sans';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+   src: url('../fonts/Harmony-Sans-Regular.woff2') format('woff2-variations'),
+   url('../fonts/Harmony-Sans-Regular.woff') format('woff-variations');
+  }
+  @font-face {
+    font-family: 'Harmony Sans';
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Medium';
+   src: url('../fonts/Harmony-Sans-Medium.woff2') format('woff2-variations'),
+   url('../fonts/Harmony-Sans-Medium.woff') format('woff-variations');
+  }
+  @font-face {
+    font-family: 'Harmony Sans';
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Bold';
+   src: url('../fonts/Harmony-Sans-Bold.woff2') format('woff2-variations'),
+   url('../fonts/Harmony-Sans-Bold.woff') format('woff-variations');
+  }
+
+  @font-face {
+    font-family: 'Degular';
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Light';
+   src: url('../fonts/Degular-Light.woff2') format('woff2-variations'),
+   url('../fonts/Degular-Light.woff') format('woff-variations');
+  }
+
+  @font-face {
+    font-family: 'Degular';
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+   src: url('../fonts/Degular-Regular.woff2') format('woff2-variations'),
+   url('../fonts/Degular-Regular.woff') format('woff-variations');
+  }
+
+  @font-face {
+    font-family: 'Degular';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Medium';
+   src: url('../fonts/Degular-Medium.woff2') format('woff2-variations'),
+   url('../fonts/Degular-Medium.woff') format('woff-variations');
+  }
+
+  @font-face {
+    font-family: 'Degular';
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Semibold';
+   src: url('../fonts/Degular-Semibold.woff2') format('woff2-variations'),
+   url('../fonts/Degular-Semibold.woff') format('woff-variations');
+  }
+
+  @font-face {
+    font-family: 'Degular';
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Bold';
+   src: url('../fonts/Degular-Bold.woff2') format('woff2-variations'),
+   url('../fonts/Degular-Bold.woff') format('woff-variations');
+  }
+   
+  
+  .font-mono {
+    font-variant-ligatures: none;
+  }
+  
