@@ -570,6 +570,120 @@
           "type": "color",
           "description": "hsl(343, 88%, 16%)"
         }
+      },
+      "smoke": {
+        "50": {
+          "value": "#4A4950",
+          "type": "color",
+          "description": "hsla(250, 4%, 30%, 1)"
+        },
+        "100": {
+          "value": "#434248",
+          "type": "color",
+          "description": "hsla(250, 4%, 27%, 1)"
+        },
+        "200": {
+          "value": "#3C3B40",
+          "type": "color",
+          "description": "hsla(250, 4%, 24%, 1)"
+        },
+        "300": {
+          "value": "#353438",
+          "type": "color",
+          "description": "hsla(250, 4%, 21%, 1)"
+        },
+        "400": {
+          "value": "#2D2C30",
+          "type": "color",
+          "description": "hsla(250, 4%, 18%, 1)"
+        },
+        "500": {
+          "value": "#252528",
+          "type": "color",
+          "description": "hsla(250, 4%, 15%, 1)"
+        },
+        "600": {
+          "value": "#202022",
+          "type": "color",
+          "description": "hsla(250, 4%, 13%, 1)"
+        },
+        "700": {
+          "value": "#1B1B1D",
+          "type": "color",
+          "description": "hsla(250, 4%, 11%, 1)"
+        },
+        "800": {
+          "value": "#161618",
+          "type": "color",
+          "description": "hsla(250, 4%, 9%, 1)"
+        },
+        "900": {
+          "value": "#111113",
+          "type": "color",
+          "description": "hsla(250, 4%, 7%, 1)"
+        },
+        "950": {
+          "value": "#0A0A0B",
+          "type": "color",
+          "description": "hsla(250, 4%, 4%, 1)"
+        }
+      },
+      "ash": {
+        "50": {
+          "value": "#FAFAFA",
+          "type": "color",
+          "description": "hsla(250, 4%, 98%, 1)"
+        },
+        "100": {
+          "value": "#F5F5F5",
+          "type": "color",
+          "description": "hsla(250, 4%, 96%, 1)"
+        },
+        "200": {
+          "value": "#EFEFF0",
+          "type": "color",
+          "description": "hsla(250, 4%, 94%, 1)"
+        },
+        "300": {
+          "value": "#EAEAEB",
+          "type": "color",
+          "description": "hsla(250, 4%, 92%, 1)"
+        },
+        "400": {
+          "value": "#E5E4E7",
+          "type": "color",
+          "description": "hsla(250, 4%, 90%, 1)"
+        },
+        "500": {
+          "value": "#DADADC",
+          "type": "color",
+          "description": "hsla(250, 4%, 86%, 1)"
+        },
+        "600": {
+          "value": "#D0CFD3",
+          "type": "color",
+          "description": "hsla(250, 4%, 82%, 1)"
+        },
+        "700": {
+          "value": "#C5C5C9",
+          "type": "color",
+          "description": "hsla(250, 4%, 78%, 1)"
+        },
+        "800": {
+          "value": "#BBBABF",
+          "type": "color",
+          "description": "hsla(250, 4%, 74%, 1)"
+        },
+        "900": {
+          "value": "#B0AFB6",
+          "type": "color",
+          "description": "hsla(250, 4%, 70%, 1)"
+        },
+        "950": {
+          "value": "#A6A5AC",
+          "type": "color",
+          "description": "hsla(250%, 4%, 66%, 1)"
+        }
       }
     },
     "text": {
@@ -1067,18 +1181,18 @@
         "value": "{base.primitive.zinc.700}",
         "type": "color"
       },
-      "low": {
-        "value": "#1c1c20",
+      "layer-low": {
+        "value": "{base.primitive.smoke.700}",
         "type": "color",
         "description": "Colour of the first layer sitting on top of background"
       },
-      "high": {
-        "value": "#1e1e22",
+      "layer-high": {
+        "value": "{base.primitive.smoke.600}",
         "type": "color",
         "description": "Colour of the second layer sitting on top of first layer"
       },
-      "highest": {
-        "value": "#212125",
+      "layer-highest": {
+        "value": "{base.primitive.smoke.500}",
         "type": "color",
         "description": "Colour of the third layer sitting on top of second layer"
       },
@@ -1156,6 +1270,11 @@
         "value": "{base.primitive.primary.100}",
         "type": "color",
         "description": "Primary button hover and focus state colour"
+      },
+      "primary-border": {
+        "value": "{base.primitive.primary.200}",
+        "type": "color",
+        "description": "Primary border colour for underlines and active borders"
       },
       "primary-foreground": {
         "value": "{base.primitive.primary.900}",
@@ -1248,7 +1367,7 @@
         "description": "Ghost button foreground default state colour"
       },
       "ghost-foreground-hocus": {
-        "value": "{base.primitive.zinc.100}",
+        "value": "{base.primitive.zinc.200}",
         "type": "color",
         "description": "Ghost button foreground hover state colour"
       },
@@ -1257,20 +1376,10 @@
         "type": "color",
         "description": "Link foreground default state colour"
       },
-      "link-border": {
-        "value": "{base.primitive.primary.200}",
-        "type": "color",
-        "description": "Link underline default state colour"
-      },
       "link-foreground-hocus": {
         "value": "{base.primitive.zinc.400}",
         "type": "color",
         "description": "Link foreground hover state colour"
-      },
-      "link-border-hocus": {
-        "value": "{base.primitive.primary.300}",
-        "type": "color",
-        "description": "Link underline hover state colour"
       },
       "tertiary": {
         "value": "{base.primitive.zinc.800}",
@@ -1327,20 +1436,10 @@
         "type": "color",
         "description": "Menu item colour on hover state"
       },
-      "accent-active": {
-        "value": "{base.primitive.zinc.800}",
-        "type": "color",
-        "description": "Menu item colour on active state"
-      },
       "accent-foreground": {
         "value": "{base.primitive.zinc.400}",
         "type": "color",
         "description": "Menu item foreground colour on default state"
-      },
-      "accent-foreground-active": {
-        "value": "{base.primitive.zinc.200}",
-        "type": "color",
-        "description": "Menu item foreground colour on active state"
       },
       "inverse": {
         "value": "{base.primitive.zinc.50}",

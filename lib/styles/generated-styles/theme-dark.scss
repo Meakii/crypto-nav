@@ -2,6 +2,9 @@
 :root {
   --background: var(--primitive-zinc-900);
   --container: var(--primitive-zinc-700);
+  --layer-low: var(--primitive-smoke-700);
+  --layer-high: var(--primitive-smoke-600);
+  --layer-highest: var(--primitive-smoke-500);
   --foreground: var(--primitive-zinc-200);
   --muted-foreground: var(--primitive-zinc-400);
   --info-foreground: var(--primitive-blue-500);
@@ -16,6 +19,7 @@
   --popover-foreground: var(--primitive-zinc-200);
   --primary: var(--primitive-primary-200);
   --primary-hocus: var(--primitive-primary-100);
+  --primary-border: var(--primitive-primary-200);
   --primary-foreground: var(--primitive-primary-900);
   --ring: var(--primitive-zinc-300);
   --secondary-border: var(--primitive-zinc-500);
@@ -34,11 +38,9 @@
   --sell-border-hocus: var(--primitive-rose-400);
   --sell-foreground-hocus: var(--primitive-rose-400);
   --ghost-foreground: var(--primitive-zinc-50);
-  --ghost-foreground-hocus: var(--primitive-zinc-100);
+  --ghost-foreground-hocus: var(--primitive-zinc-200);
   --link-foreground: var(--primitive-zinc-50);
-  --link-border: var(--primitive-primary-200);
   --link-foreground-hocus: var(--primitive-zinc-400);
-  --link-border-hocus: var(--primitive-primary-300);
   --tertiary: var(--primitive-zinc-800);
   --tertiary-hocus: var(--primitive-zinc-700);
   --tertiary-foreground: var(--primitive-zinc-50);
@@ -49,9 +51,7 @@
   --input-placeholder: var(--primitive-zinc-500);
   --input-border-danger: var(--primitive-red-500);
   --accent: var(--primitive-zinc-800);
-  --accent-active: var(--primitive-zinc-800);
   --accent-foreground: var(--primitive-zinc-400);
-  --accent-foreground-active: var(--primitive-zinc-200);
   --inverse: var(--primitive-zinc-50);
   --inverse-foreground: var(--primitive-zinc-950);
   --tab-hocus: var(--primitive-zinc-700);

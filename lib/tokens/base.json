@@ -570,6 +570,120 @@
           "type": "color",
           "description": "hsl(343, 88%, 16%)"
         }
+      },
+      "smoke": {
+        "50": {
+          "value": "#4A4950",
+          "type": "color",
+          "description": "hsla(250, 4%, 30%, 1)"
+        },
+        "100": {
+          "value": "#434248",
+          "type": "color",
+          "description": "hsla(250, 4%, 27%, 1)"
+        },
+        "200": {
+          "value": "#3C3B40",
+          "type": "color",
+          "description": "hsla(250, 4%, 24%, 1)"
+        },
+        "300": {
+          "value": "#353438",
+          "type": "color",
+          "description": "hsla(250, 4%, 21%, 1)"
+        },
+        "400": {
+          "value": "#2D2C30",
+          "type": "color",
+          "description": "hsla(250, 4%, 18%, 1)"
+        },
+        "500": {
+          "value": "#252528",
+          "type": "color",
+          "description": "hsla(250, 4%, 15%, 1)"
+        },
+        "600": {
+          "value": "#202022",
+          "type": "color",
+          "description": "hsla(250, 4%, 13%, 1)"
+        },
+        "700": {
+          "value": "#1B1B1D",
+          "type": "color",
+          "description": "hsla(250, 4%, 11%, 1)"
+        },
+        "800": {
+          "value": "#161618",
+          "type": "color",
+          "description": "hsla(250, 4%, 9%, 1)"
+        },
+        "900": {
+          "value": "#111113",
+          "type": "color",
+          "description": "hsla(250, 4%, 7%, 1)"
+        },
+        "950": {
+          "value": "#0A0A0B",
+          "type": "color",
+          "description": "hsla(250, 4%, 4%, 1)"
+        }
+      },
+      "ash": {
+        "50": {
+          "value": "#FAFAFA",
+          "type": "color",
+          "description": "hsla(250, 4%, 98%, 1)"
+        },
+        "100": {
+          "value": "#F5F5F5",
+          "type": "color",
+          "description": "hsla(250, 4%, 96%, 1)"
+        },
+        "200": {
+          "value": "#EFEFF0",
+          "type": "color",
+          "description": "hsla(250, 4%, 94%, 1)"
+        },
+        "300": {
+          "value": "#EAEAEB",
+          "type": "color",
+          "description": "hsla(250, 4%, 92%, 1)"
+        },
+        "400": {
+          "value": "#E5E4E7",
+          "type": "color",
+          "description": "hsla(250, 4%, 90%, 1)"
+        },
+        "500": {
+          "value": "#DADADC",
+          "type": "color",
+          "description": "hsla(250, 4%, 86%, 1)"
+        },
+        "600": {
+          "value": "#D0CFD3",
+          "type": "color",
+          "description": "hsla(250, 4%, 82%, 1)"
+        },
+        "700": {
+          "value": "#C5C5C9",
+          "type": "color",
+          "description": "hsla(250, 4%, 78%, 1)"
+        },
+        "800": {
+          "value": "#BBBABF",
+          "type": "color",
+          "description": "hsla(250, 4%, 74%, 1)"
+        },
+        "900": {
+          "value": "#B0AFB6",
+          "type": "color",
+          "description": "hsla(250, 4%, 70%, 1)"
+        },
+        "950": {
+          "value": "#A6A5AC",
+          "type": "color",
+          "description": "hsla(250%, 4%, 66%, 1)"
+        }
       }
     },
     "text": {

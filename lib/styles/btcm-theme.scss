@@ -112,6 +112,28 @@
   --primitive-rose-800: #9f1239;
   --primitive-rose-900: #881337;
   --primitive-rose-950: #4c0519;
+  --primitive-smoke-50: #4a4950;
+  --primitive-smoke-100: #434248;
+  --primitive-smoke-200: #3c3b40;
+  --primitive-smoke-300: #353438;
+  --primitive-smoke-400: #2d2c30;
+  --primitive-smoke-500: #252528;
+  --primitive-smoke-600: #202022;
+  --primitive-smoke-700: #1b1b1d;
+  --primitive-smoke-800: #161618;
+  --primitive-smoke-900: #111113;
+  --primitive-smoke-950: #0a0a0b;
+  --primitive-ash-50: #fafafa;
+  --primitive-ash-100: #f5f5f5;
+  --primitive-ash-200: #efeff0;
+  --primitive-ash-300: #eaeaeb;
+  --primitive-ash-400: #e5e4e7;
+  --primitive-ash-500: #dadadc;
+  --primitive-ash-600: #d0cfd3;
+  --primitive-ash-700: #c5c5c9;
+  --primitive-ash-800: #bbbabf;
+  --primitive-ash-900: #b0afb6;
+  --primitive-ash-950: #a6a5ac;
   --text-font-weights-bold: Bold;
   --text-font-weights-thin: Thin;
   --text-font-weights-normal: Normal;
@@ -181,8 +203,11 @@
 }
 
 :root.light {
-  --background: var(--primitive-sand-50);
+  --background: var(--primitive-ash-100);
   --container: var(--primitive-general-white);
+  --layer-low: var(--primitive-ash-50);
+  --layer-high: var(--primitive-ash-200);
+  --layer-highest: var(--primitive-ash-50);
   --muted-foreground: var(--primitive-zinc-700);
   --success-foreground: var(--primitive-green-700);
   --info-foreground: var(--primitive-blue-600);
@@ -191,6 +216,7 @@
   --downtrend-foreground: var(--primitive-rose-700);
   --uptrend-foreground: var(--primitive-emerald-700);
   --muted-border: var(--primitive-zinc-200);
+  --muted: var(--primitive-ash-50);
   --border: var(--primitive-zinc-300);
   --popover: var(--primitive-sand-100);
   --popover-foreground: var(--primitive-zinc-900);
@@ -198,6 +224,7 @@
   --primary: var(--primitive-primary-400);
   --primary-foreground: var(--primitive-primary-900);
   --primary-hocus: var(--primitive-primary-300);
+  --primary-border: var(--primitive-primary-500);
   --ring: var(--primitive-zinc-600);
   --secondary-border: var(--primitive-zinc-500);
   --secondary-border-hocus: var(--primitive-zinc-700);
@@ -220,9 +247,7 @@
   --ghost-foreground: var(--primitive-zinc-900);
   --ghost-foreground-hocus: var(--primitive-zinc-700);
   --link-foreground: var(--primitive-zinc-900);
-  --link-border: var(--primitive-primary-500);
   --link-foreground-hocus: var(--primitive-zinc-700);
-  --link-border-hocus: var(--primitive-primary-400);
   --input-border: var(--primitive-zinc-500);
   --input-foreground: var(--primitive-zinc-900);
   --input-placeholder: var(--primitive-zinc-300);
@@ -230,14 +255,12 @@
   --input-border-hocus: var(--primitive-zinc-600);
   --input-border-danger: var(--primitive-red-500);
   --accent: var(--primitive-zinc-100);
-  --accent-active: var(--primitive-zinc-100);
   --accent-foreground: var(--primitive-zinc-700);
-  --accent-foreground-active: var(--primitive-zinc-900);
   --inverse: var(--primitive-zinc-950);
   --inverse-foreground: var(--primitive-zinc-50);
   --tab-hocus: var(--primitive-zinc-50);
   --tab-active: var(--primitive-zinc-50);
-  --tab-foreground: var(--primitive-zinc-700);
+  --tab-foreground: var(--primitive-zinc-600);
   --tab-foreground-hocus: var(--primitive-zinc-700);
   --tab-foreground-active: var(--primitive-zinc-900);
   --shadow-sm: 0rem 0.125rem 0.375rem 0rem rgba(0,0,0,0.04);
@@ -248,6 +271,9 @@
 :root.dark {
   --background: var(--primitive-zinc-900);
   --container: var(--primitive-zinc-700);
+  --layer-low: var(--primitive-smoke-700);
+  --layer-high: var(--primitive-smoke-600);
+  --layer-highest: var(--primitive-smoke-500);
   --foreground: var(--primitive-zinc-200);
   --muted-foreground: var(--primitive-zinc-400);
   --info-foreground: var(--primitive-blue-500);
@@ -262,6 +288,7 @@
   --popover-foreground: var(--primitive-zinc-200);
   --primary: var(--primitive-primary-200);
   --primary-hocus: var(--primitive-primary-100);
+  --primary-border: var(--primitive-primary-200);
   --primary-foreground: var(--primitive-primary-900);
   --ring: var(--primitive-zinc-300);
   --secondary-border: var(--primitive-zinc-500);
@@ -280,11 +307,9 @@
   --sell-border-hocus: var(--primitive-rose-400);
   --sell-foreground-hocus: var(--primitive-rose-400);
   --ghost-foreground: var(--primitive-zinc-50);
-  --ghost-foreground-hocus: var(--primitive-zinc-100);
+  --ghost-foreground-hocus: var(--primitive-zinc-200);
   --link-foreground: var(--primitive-zinc-50);
-  --link-border: var(--primitive-primary-200);
   --link-foreground-hocus: var(--primitive-zinc-400);
-  --link-border-hocus: var(--primitive-primary-300);
   --tertiary: var(--primitive-zinc-800);
   --tertiary-hocus: var(--primitive-zinc-700);
   --tertiary-foreground: var(--primitive-zinc-50);
@@ -295,9 +320,7 @@
   --input-placeholder: var(--primitive-zinc-500);
   --input-border-danger: var(--primitive-red-500);
   --accent: var(--primitive-zinc-800);
-  --accent-active: var(--primitive-zinc-800);
   --accent-foreground: var(--primitive-zinc-400);
-  --accent-foreground-active: var(--primitive-zinc-200);
   --inverse: var(--primitive-zinc-50);
   --inverse-foreground: var(--primitive-zinc-950);
   --tab-hocus: var(--primitive-zinc-700);

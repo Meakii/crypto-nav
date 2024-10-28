@@ -1,7 +1,10 @@
 /* This file has been auto-generated from the convert-design-tokens / transform-tokens process. Don't edit directly. */
 :root {
-  --background: var(--primitive-sand-50);
+  --background: var(--primitive-ash-100);
   --container: var(--primitive-general-white);
+  --layer-low: var(--primitive-ash-50);
+  --layer-high: var(--primitive-ash-200);
+  --layer-highest: var(--primitive-ash-50);
   --muted-foreground: var(--primitive-zinc-700);
   --success-foreground: var(--primitive-green-700);
   --info-foreground: var(--primitive-blue-600);
@@ -10,6 +13,7 @@
   --downtrend-foreground: var(--primitive-rose-700);
   --uptrend-foreground: var(--primitive-emerald-700);
   --muted-border: var(--primitive-zinc-200);
+  --muted: var(--primitive-ash-50);
   --border: var(--primitive-zinc-300);
   --popover: var(--primitive-sand-100);
   --popover-foreground: var(--primitive-zinc-900);
@@ -17,6 +21,7 @@
   --primary: var(--primitive-primary-400);
   --primary-foreground: var(--primitive-primary-900);
   --primary-hocus: var(--primitive-primary-300);
+  --primary-border: var(--primitive-primary-500);
   --ring: var(--primitive-zinc-600);
   --secondary-border: var(--primitive-zinc-500);
   --secondary-border-hocus: var(--primitive-zinc-700);
@@ -39,9 +44,7 @@
   --ghost-foreground: var(--primitive-zinc-900);
   --ghost-foreground-hocus: var(--primitive-zinc-700);
   --link-foreground: var(--primitive-zinc-900);
-  --link-border: var(--primitive-primary-500);
   --link-foreground-hocus: var(--primitive-zinc-700);
-  --link-border-hocus: var(--primitive-primary-400);
   --input-border: var(--primitive-zinc-500);
   --input-foreground: var(--primitive-zinc-900);
   --input-placeholder: var(--primitive-zinc-300);
@@ -49,14 +52,12 @@
   --input-border-hocus: var(--primitive-zinc-600);
   --input-border-danger: var(--primitive-red-500);
   --accent: var(--primitive-zinc-100);
-  --accent-active: var(--primitive-zinc-100);
   --accent-foreground: var(--primitive-zinc-700);
-  --accent-foreground-active: var(--primitive-zinc-900);
   --inverse: var(--primitive-zinc-950);
   --inverse-foreground: var(--primitive-zinc-50);
   --tab-hocus: var(--primitive-zinc-50);
   --tab-active: var(--primitive-zinc-50);
-  --tab-foreground: var(--primitive-zinc-700);
+  --tab-foreground: var(--primitive-zinc-600);
   --tab-foreground-hocus: var(--primitive-zinc-700);
   --tab-foreground-active: var(--primitive-zinc-900);
   --shadow-sm: 0rem 0.125rem 0.375rem 0rem rgba(0,0,0,0.04);
