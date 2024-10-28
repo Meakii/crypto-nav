@@ -5,7 +5,7 @@
   --layer-low: var(--primitive-ash-50);
   --layer-high: var(--primitive-ash-200);
   --layer-highest: var(--primitive-ash-50);
-  --muted-foreground: var(--primitive-zinc-700);
+  --muted-foreground: var(--primitive-zinc-600);
   --success-foreground: var(--primitive-green-700);
   --info-foreground: var(--primitive-blue-600);
   --error-foreground: var(--primitive-red-700);
@@ -45,8 +45,8 @@
   --ghost-foreground-hocus: var(--primitive-zinc-700);
   --link-foreground: var(--primitive-zinc-900);
   --link-foreground-hocus: var(--primitive-zinc-700);
-  --input-border: var(--primitive-zinc-500);
   --input-foreground: var(--primitive-zinc-900);
+  --input-border: var(--primitive-zinc-500);
   --input-placeholder: var(--primitive-zinc-300);
   --input-border-active: var(--primitive-primary-500);
   --input-border-hocus: var(--primitive-zinc-600);
