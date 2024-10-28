@@ -1432,7 +1432,7 @@
         "description": "Input field background colour"
       },
       "accent": {
-        "value": "{base.primitive.zinc.100}",
+        "value": "{base.primitive.zinc.200}",
         "type": "color",
         "description": "Menu item colour on hover state"
       },
