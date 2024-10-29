@@ -760,7 +760,7 @@
         }
       }
     },
-    "rounded": {
+    "radius": {
       "none": {
         "value": "0",
         "type": "number",
@@ -771,10 +771,10 @@
         "type": "number",
         "description": "Border radius size xs"
       },
-      "sm": {
+      "radius": {
         "value": "4",
         "type": "number",
-        "description": "Border radius size sm"
+        "description": "Border radius size base radius"
       },
       "md": {
         "value": "8",
@@ -791,15 +791,10 @@
         "type": "number",
         "description": "Border radius size lg"
       },
-      "2xl": {
-        "value": "48",
+      "full": {
+        "value": "9999",
         "type": "number",
-        "description": "Border radius size 2xl"
-      },
-      "3xl": {
-        "value": "100",
-        "type": "number",
-        "description": "Border radius size 3xl"
+        "description": "Border radius size full (rounded)"
       }
     },
     "border-width": {
