@@ -1206,6 +1206,11 @@
         "type": "color",
         "description": "Info status text on layers"
       },
+      "info": {
+        "value": "{base.primitive.blue.400}",
+        "type": "color",
+        "description": "Info status background colour"
+      },
       "error-foreground": {
         "value": "{base.primitive.red.400}",
         "type": "color",
