@@ -1437,9 +1437,9 @@
         "description": "Menu item colour on hover state"
       },
       "accent-foreground": {
-        "value": "{base.primitive.zinc.700}",
+        "value": "{base.primitive.zinc.800}",
         "type": "color",
-        "description": "Menu item foreground colour on default state"
+        "description": "Menu item foreground colour on hover state"
       },
       "inverse": {
         "value": "{base.primitive.zinc.950}",
