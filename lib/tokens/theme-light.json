@@ -1206,11 +1206,6 @@
         "type": "color",
         "description": "Info status text on layers"
       },
-      "info": {
-        "value": "{base.primitive.blue.600}",
-        "type": "color",
-        "description": "Info status background colour"
-      },
       "error-foreground": {
         "value": "{base.primitive.red.700}",
         "type": "color",
@@ -1286,41 +1281,6 @@
         "type": "color",
         "description": "Focus state colour for rings around focused elements"
       },
-      "secondary-border": {
-        "value": "{base.primitive.zinc.500}",
-        "type": "color",
-        "description": "Secondary button border default state colour"
-      },
-      "secondary-border-hocus": {
-        "value": "{base.primitive.zinc.700}",
-        "type": "color",
-        "description": "Secondary button border hover state colour"
-      },
-      "secondary-foreground": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Secondary button foreground default state colour"
-      },
-      "secondary-foreground-hocus": {
-        "value": "{base.primitive.zinc.700}",
-        "type": "color",
-        "description": "Secondary button foreground hover state colour"
-      },
-      "tertiary": {
-        "value": "{base.primitive.zinc.300}",
-        "type": "color",
-        "description": "Tertiary button default state colour"
-      },
-      "tertiary-hocus": {
-        "value": "{base.primitive.zinc.400}",
-        "type": "color",
-        "description": "Tertiary button hover state colour"
-      },
-      "tertiary-foreground": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Tertiary button text and icons colour"
-      },
       "destructive": {
         "value": "{base.primitive.red.500}",
         "type": "color",
@@ -1335,101 +1295,6 @@
         "value": "{base.primitive.zinc.900}",
         "type": "color",
         "description": "Destructive button text and icons colour"
-      },
-      "buy-border": {
-        "value": "{base.primitive.emerald.600}",
-        "type": "color",
-        "description": "Buy button border default state colour"
-      },
-      "buy-foreground": {
-        "value": "{base.primitive.emerald.700}",
-        "type": "color",
-        "description": "Buy button foreground colour"
-      },
-      "buy-border-hocus": {
-        "value": "{base.primitive.emerald.500}",
-        "type": "color",
-        "description": "Buy button border hover state colour"
-      },
-      "buy-foreground-hocus": {
-        "value": "{base.primitive.emerald.500}",
-        "type": "color",
-        "description": "Buy button text and icons hover state colour"
-      },
-      "sell-border": {
-        "value": "{base.primitive.rose.500}",
-        "type": "color",
-        "description": "Sell button border default state colour"
-      },
-      "sell-foreground": {
-        "value": "{base.primitive.rose.600}",
-        "type": "color",
-        "description": "Sell button foreground colour"
-      },
-      "sell-border-hocus": {
-        "value": "{base.primitive.rose.400}",
-        "type": "color",
-        "description": "Sell button border hover state colour"
-      },
-      "sell-foreground-hocus": {
-        "value": "{base.primitive.rose.400}",
-        "type": "color",
-        "description": "Sell button text and icons hover state colour"
-      },
-      "ghost-foreground": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Ghost button foreground default state colour"
-      },
-      "ghost-foreground-hocus": {
-        "value": "{base.primitive.zinc.700}",
-        "type": "color",
-        "description": "Ghost button foreground default state colour"
-      },
-      "link-foreground": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Link foreground default state colour"
-      },
-      "link-foreground-hocus": {
-        "value": "{base.primitive.zinc.700}",
-        "type": "color",
-        "description": "Link foreground hover state colour"
-      },
-      "input-foreground": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Input foreground (text) colour"
-      },
-      "input-border": {
-        "value": "{base.primitive.zinc.500}",
-        "type": "color",
-        "description": "Input border default state colour"
-      },
-      "input-placeholder": {
-        "value": "{base.primitive.zinc.400}",
-        "type": "color",
-        "description": "Input foreground (text) placeholder colour"
-      },
-      "input-border-active": {
-        "value": "{base.primitive.primary.500}",
-        "type": "color",
-        "description": "Input border active state colour"
-      },
-      "input-border-hocus": {
-        "value": "{base.primitive.zinc.600}",
-        "type": "color",
-        "description": "Input border hover state colour"
-      },
-      "input-border-danger": {
-        "value": "{base.primitive.red.500}",
-        "type": "color",
-        "description": "Input border error state colour"
-      },
-      "input": {
-        "value": "rgba(255,255,255,0)",
-        "type": "color",
-        "description": "Input field background colour"
       },
       "accent": {
         "value": "{base.primitive.zinc.200}",
@@ -1451,30 +1316,188 @@
         "type": "color",
         "description": "Inverse foreground colour for text and icons on inverse backgrounds"
       },
-      "tab-hocus": {
-        "value": "{base.primitive.zinc.50}",
-        "type": "color",
-        "description": "Tabs contained background hover state colour"
+      "status": {
+        "info-background": {
+          "value": "{base.primitive.blue.600}",
+          "type": "color",
+          "description": "Info status background colour"
+        },
+        "success-background": {
+          "value": "{base.primitive.green.600}",
+          "type": "color",
+          "description": "Success status background colour"
+        },
+        "error-background": {
+          "value": "{base.primitive.red.600}",
+          "type": "color",
+          "description": "Error status background colour"
+        },
+        "warning-background": {
+          "value": "{base.primitive.amber.600}",
+          "type": "color",
+          "description": "Warning status background colour"
+        }
       },
-      "tab-active": {
-        "value": "{base.primitive.zinc.50}",
-        "type": "color",
-        "description": "Tabs contained background active state colour"
+      "button": {
+        "secondary-border": {
+          "value": "{base.primitive.zinc.500}",
+          "type": "color",
+          "description": "Secondary button border default state colour"
+        },
+        "secondary-border-hocus": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Secondary button border hover state colour"
+        },
+        "secondary-foreground": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Secondary button foreground default state colour"
+        },
+        "secondary-foreground-hocus": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Secondary button foreground hover state colour"
+        },
+        "tertiary-background": {
+          "value": "{base.primitive.zinc.300}",
+          "type": "color",
+          "description": "Tertiary button default state colour"
+        },
+        "tertiary-background-hocus": {
+          "value": "{base.primitive.zinc.400}",
+          "type": "color",
+          "description": "Tertiary button hover state colour"
+        },
+        "tertiary-foreground": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Tertiary button text and icons colour"
+        },
+        "buy-border": {
+          "value": "{base.primitive.emerald.600}",
+          "type": "color",
+          "description": "Buy button border default state colour"
+        },
+        "buy-foreground": {
+          "value": "{base.primitive.emerald.700}",
+          "type": "color",
+          "description": "Buy button foreground colour"
+        },
+        "buy-border-hocus": {
+          "value": "{base.primitive.emerald.500}",
+          "type": "color",
+          "description": "Buy button border hover state colour"
+        },
+        "buy-foreground-hocus": {
+          "value": "{base.primitive.emerald.500}",
+          "type": "color",
+          "description": "Buy button text and icons hover state colour"
+        },
+        "sell-border": {
+          "value": "{base.primitive.rose.500}",
+          "type": "color",
+          "description": "Sell button border default state colour"
+        },
+        "sell-foreground": {
+          "value": "{base.primitive.rose.600}",
+          "type": "color",
+          "description": "Sell button foreground colour"
+        },
+        "sell-border-hocus": {
+          "value": "{base.primitive.rose.400}",
+          "type": "color",
+          "description": "Sell button border hover state colour"
+        },
+        "sell-foreground-hocus": {
+          "value": "{base.primitive.rose.400}",
+          "type": "color",
+          "description": "Sell button text and icons hover state colour"
+        },
+        "ghost-foreground": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Ghost button foreground default state colour"
+        },
+        "ghost-foreground-hocus": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Ghost button foreground default state colour"
+        },
+        "link-foreground": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Link foreground default state colour"
+        },
+        "link-foreground-hocus": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Link foreground hover state colour"
+        }
       },
-      "tab-foreground": {
-        "value": "{base.primitive.zinc.600}",
-        "type": "color",
-        "description": "Tabs contained foreground default state colour"
+      "input": {
+        "foreground": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Input foreground (text) colour"
+        },
+        "border": {
+          "value": "{base.primitive.zinc.500}",
+          "type": "color",
+          "description": "Input border default state colour"
+        },
+        "placeholder": {
+          "value": "{base.primitive.zinc.400}",
+          "type": "color",
+          "description": "Input foreground (text) placeholder colour"
+        },
+        "border-active": {
+          "value": "{base.primitive.primary.500}",
+          "type": "color",
+          "description": "Input border active state colour"
+        },
+        "border-hocus": {
+          "value": "{base.primitive.zinc.600}",
+          "type": "color",
+          "description": "Input border hover state colour"
+        },
+        "border-danger": {
+          "value": "{base.primitive.red.500}",
+          "type": "color",
+          "description": "Input border error state colour"
+        },
+        "background": {
+          "value": "rgba(255,255,255,0)",
+          "type": "color",
+          "description": "Input field background colour"
+        }
       },
-      "tab-foreground-hocus": {
-        "value": "{base.primitive.zinc.700}",
-        "type": "color",
-        "description": "Tabs contained foreground hover state colour"
-      },
-      "tab-foreground-active": {
-        "value": "{base.primitive.zinc.900}",
-        "type": "color",
-        "description": "Tabs contained foreground active state colour"
+      "tab": {
+        "background-hocus": {
+          "value": "{base.primitive.zinc.50}",
+          "type": "color",
+          "description": "Tabs contained background hover state colour"
+        },
+        "background-active": {
+          "value": "{base.primitive.zinc.50}",
+          "type": "color",
+          "description": "Tabs contained background active state colour"
+        },
+        "foreground": {
+          "value": "{base.primitive.zinc.600}",
+          "type": "color",
+          "description": "Tabs contained foreground default state colour"
+        },
+        "foreground-hocus": {
+          "value": "{base.primitive.zinc.700}",
+          "type": "color",
+          "description": "Tabs contained foreground hover state colour"
+        },
+        "foreground-active": {
+          "value": "{base.primitive.zinc.900}",
+          "type": "color",
+          "description": "Tabs contained foreground active state colour"
+        }
       }
     },
     "font": {
