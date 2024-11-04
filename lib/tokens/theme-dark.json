@@ -1399,16 +1399,6 @@
           "type": "color",
           "description": "Sell button text and icons hover state colour"
         },
-        "ghost-foreground": {
-          "value": "{base.primitive.zinc.50}",
-          "type": "color",
-          "description": "Ghost button foreground default state colour"
-        },
-        "ghost-foreground-hocus": {
-          "value": "{base.primitive.zinc.200}",
-          "type": "color",
-          "description": "Ghost button foreground hover state colour"
-        },
         "link-foreground": {
           "value": "{base.primitive.zinc.50}",
           "type": "color",
